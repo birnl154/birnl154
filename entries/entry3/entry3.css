@@ -1,0 +1,53 @@
+body{background-color: #BBBEFE;text: white;}
+
+
+
+
+marquee{color: white}
+summary{color: white;}
+p{color: white; font-family: 'Cutive Mono', monospace;}
+
+.myDIV3{font-family: 'Bodoni Moda', serif; color: white; font-size: 50px;}
+
+.myDIV1{font-family: 'Cutive Mono', monospace; background-color: #BBBEFE; color: white; font-size: 32px;}
+
+.myDIV2{font-family: 'Stardos Stencil', cursive;color: white; font-size: 50px;}
+.hide {
+  display: none;
+}
+
+.myDIV1:hover + .hide {
+  display: block; color:#BBBEFE; font-family: 'Cutive Mono', monospace;
+  color: gray;
+}
+
+.hide {
+  display: none; font-family: 'Stardos Stencil', cursive;
+}
+
+.myDIV2:hover + .hide {font-family: 'Stardos Stencil', cursive;
+  display: block;
+  color: gray;
+}
+
+.hide {
+  display: none; font-family: 'Stardos Stencil', cursive;
+}
+
+.myDIV3:hover + .hide {font-family: 'Bodoni Moda', serif;
+  display: block;
+  color: gray;
+}
+/*h1:hover{
+    border-style: single;
+    border-color: white;
+    border-radius: 30px;
+    font-weight: bolder;
+    text-align: center;
+    padding: 50px;
+    text-transform: uppercase;
+    background-image: linear-gradient(white, #BBBEFE);
+    color: cadetblue; 
+}
+
+*/

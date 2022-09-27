@@ -1,0 +1,21 @@
+
+body{font-size: 20px;background-color: #BBBEFE;font-family: 
+	verdana;font-size: 20px;text-align: center; text-color: white}
+
+.wrapper{background-color: #BBBEFE;}
+
+
+.summary{text-color: white}
+
+  div.demo-star {
+  position: relative; 
+  display: block;
+  color: #2762e9;
+  width: 0;
+  height: 0;
+  border-right: 100px solid transparent;
+  border-bottom: 70px solid #2762e9;
+  border-left: 100px solid transparent;
+  transform: rotate(35deg); 
+}
+

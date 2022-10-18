@@ -1,55 +1,87 @@
-body{background-color: #BBBEFE;text: white;}
 
+body{
+  margin: 20px;
+  color: gray;
+}
+.container {
+  display: flex;
+  padding:30px;
+  background-color: #fefff2;
+  min-height: 300px;
+  font-family: 'Cutive Mono', monospace;
+  color:  #fefff2;
+  font-size:  20px;
+  text-align:  center;
+}
+/*this tells the browser to account for any border and padding in the values you specify for an element's width and height.*/
+* {box-sizing:  border-box;}
 
+.item {
+  margin: 10px 10px;
+  width: 300px;
+}
 
+.item1 {
+  background-color: #ffffff;
+  color: black;
+}
+
+.item2 {
+  background-color:  #fffecf;
+  color: #2b2b2b;
+}
+
+.item3 {
+  background-color:  #dec162;
+  color: #595858;
+}
+
+.item4 {
+  background-color:  #ba5706;
+  color: #878786;
+}
+
+.item5 {
+  background-color:  #733201;
+  color: #c4c4c2;
+}
+
+.item6 {
+  background-color:  black;
+  color: ##ffffff;
+}
+
+body{background-color: #afc29f;
+color: white;}
+
+h1{
+  font-family: 'Rock Salt';
+  color: white;
+  font-size: 50px;
+}
+
+h2{
+  font-size: 50px;
+  font-family: Georgia;
+  color: white;
+
+}
 
 marquee{color: white}
-summary{color: white;}
-p{color: white; font-family: 'Cutive Mono', monospace;}
 
-.myDIV3{font-family: 'Bodoni Moda', serif; color: white; font-size: 50px;}
+p{color: white; font-family: 'Cutive Mono', monospace;
+font-size:30px ;}
 
-.myDIV1{font-family: 'Cutive Mono', monospace; background-color: #BBBEFE; color: white; font-size: 32px;}
-
-.myDIV2{font-family: 'Stardos Stencil', cursive;color: white; font-size: 50px;}
-.hide {
-  display: none;
-}
-
-.myDIV1:hover + .hide {
-  display: block; color:#BBBEFE; font-family: 'Cutive Mono', monospace;
-  color: gray;
-}
-
-.hide {
-  display: none; font-family: 'Stardos Stencil', cursive;
-}
-
-.myDIV2:hover + .hide {font-family: 'Stardos Stencil', cursive;
-  display: block;
-  color: gray;
-}
-
-.hide {
-  display: none; font-family: 'Stardos Stencil', cursive;
-}
-
-.myDIV3:hover + .hide {font-family: 'Bodoni Moda', serif;
-  display: block;
-  color: gray;
-}
+@media (max-height: 650px) {
+  body {
+    background-color: lightpink;
+    color: lawngreen;
+  }
 
 
-/*h1:hover{
-    border-style: single;
-    border-color: white;
-    border-radius: 30px;
-    font-weight: bolder;
-    text-align: center;
-    padding: 50px;
-    text-transform: uppercase;
-    background-image: linear-gradient(white, #BBBEFE);
-    color: cadetblue; 
-}
+@media (max-width: 850px) {
+  body {
+    background-color: darkblue;
+    color:  white;
 
-*/
+

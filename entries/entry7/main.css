@@ -1,0 +1,56 @@
+
+body{
+	background-color: #ff9a42;
+}
+
+marquee{color: BLACK;}
+
+h1{
+	font-family: Verdana;
+	font-size: 230px;
+	color: white;
+}
+
+div{
+	font-size: 200px;
+	color: white;
+	font-family: Georgia;
+}
+
+p{font-size: 200px}
+
+marquee{
+	transform: scale(100.0);
+}
+
+a{
+	font-family: Verdana;
+	font-size: 150px;
+	color: white;
+}
+
+@media (max-width: 650px) {
+  body {
+    background-color: blue;
+    color:  black;
+  }
+
+@media (max-height: 650px) {
+  body {
+    background-color: red;
+  }
+
+  @media (max-height: 650px) {
+  body {
+    background-color: lavender;
+    color: navy;
+  }
+
+
+img {
+  max-width: 50%;
+}
+
+marquee{
+	transform: scale(100.0);
+}

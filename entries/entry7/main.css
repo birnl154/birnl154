@@ -4,12 +4,65 @@ body{
 }
 
 marquee{color: BLACK;}
+#star {
+  height:3000px; text-align: center;
+  animation: yinYangSpin 3s infinite ease-in-out alternate-reverse;
+  animation-name: yinYangSpin;
+}
 
+
+@keyframes yinYangSpin {
+0% { transform: rotate(0);
+}
+100% { transform: rotate(1turn);
+}
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.item {
+  text-align: center;
+  animation: spinType 2s;
+}
+
+
+@keyframes spinType {
+0% { color: blue;
+}
+50%{letter-spacing: 25px;}
+100% { transform: rotate(1turn);
+}
+}
+
+#star: hover{
+  animation-name: yinYangSpin;
+  animation-play-state: paused;
+  cursor: pointer;
+}
+
+@keyframes colorwWap {
+0% { transform: rotate(0);
+}
+100% { transform: rotate(3turn);
+}
+}
 h1{
 	font-family: Verdana;
 	font-size: 230px;
 	color: white;
 }
+
+
+
+
+
+
 
 div{
 	font-size: 200px;
@@ -35,7 +88,7 @@ a{
     color:  black;
   }
 
-@media (max-height: 650px) {
+@media (max-height: 50px) {
   body {
     background-color: red;
   }

@@ -5,7 +5,7 @@ body{
 
 marquee{color: BLACK;}
 #star {
-  height:3000px; text-align: center;
+  height:500px; text-align: center;
   animation: yinYangSpin 3s infinite ease-in-out alternate-reverse;
   animation-name: yinYangSpin;
 }
@@ -107,3 +107,4 @@ img {
 marquee{
 	transform: scale(100.0);
 }
+

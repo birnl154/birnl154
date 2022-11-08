@@ -1,0 +1,122 @@
+
+body{
+	background-color: darkred;
+}
+
+a{
+	color: white;
+	text-align: left;
+	font-size: 20px;
+}
+
+.fixed {
+  position:fixed; left:0px; bottom: 0px; background-color:darkred;
+}
+
+div {
+  width: 2000px;
+  height: 300px;
+  color: white;
+}
+
+h1 {
+	color:hotpink;
+}
+
+h3 {
+transition: transform 3s ease-in-out;
+color: white;
+	text-align: center;
+	  font-size: 50px;
+}
+h3:hover {
+	 transform: rotate(360deg);
+}
+
+.strawberryone {
+	position: relative;
+	  left: 100px;
+}
+
+.strawberrytwo {
+	position: relative;
+	  left: 500px;
+}
+
+.strawberrythree {
+	position: relative;
+	  left: 0px;
+}
+
+.strawberryfour {
+	position: relative;
+	  left: 300px;
+}
+
+.strawberryfive {
+	position: relative;
+	  	  padding:  200px;
+}
+
+.strawberrysix {
+	position: relative;
+	  padding:  400px;
+}
+
+.shortcakeone {
+	position: relative;
+}
+
+.shortcaketwo {
+	position: relative;
+	  padding:  100px;
+}
+.shortcaketwo {
+	position: relative;
+	left: 600px;
+}
+
+.me {
+	position: relative;
+	left:  500px;
+	transition: transform 3s ease-in-out;
+}
+
+p {
+	color: white;
+	text-align: center;
+	  font-size: 50px;
+}
+
+
+img {
+  transition: transform 3s ease-in-out;
+}
+img:hover {
+  transform: scale(2);
+}
+
+h2 {
+	color: white;
+	text-align: center;
+	font-size: 40px;
+}
+h2:hover {
+    webkit-filter: blur(4px); /* Chrome, Safari, Opera */
+    filter: blur(4px);
+}
+
+
+/*.fixed {
+  text-align: center;
+  animation: spinType 30s;
+}
+
+*/
+/*@keyframes spinType {
+0% { color: red;
+}
+50%{letter-spacing: 25px;color: blue}
+100% { transform: rotate(1turn);
+}
+*/

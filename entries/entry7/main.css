@@ -1,11 +1,12 @@
 
 body{
 	background-color: #ff9a42;
+  font-size: 50px;
 }
 
 marquee{color: BLACK;}
 #star {
-  height:500px; text-align: center;
+  height:600px; text-align: center;
   animation: yinYangSpin 3s infinite ease-in-out alternate-reverse;
   animation-name: yinYangSpin;
 }
@@ -23,7 +24,7 @@ marquee{color: BLACK;}
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  height: 50vh;
 }
 
 .item {
@@ -54,7 +55,7 @@ marquee{color: BLACK;}
 }
 h1{
 	font-family: Verdana;
-	font-size: 230px;
+	font-size: 50px;
 	color: white;
 }
 
@@ -65,24 +66,24 @@ h1{
 
 
 div{
-	font-size: 200px;
+	font-size: 50px;
 	color: white;
 	font-family: Georgia;
 }
 
-p{font-size: 200px}
+p{font-size: 50px}
 
 marquee{
-	transform: scale(100.0);
+	transform: scale(3.0);
 }
 
 a{
 	font-family: Verdana;
-	font-size: 150px;
+	font-size: 50px;
 	color: white;
 }
 
-@media (max-width: 650px) {
+@media (max-width: 50px) {
   body {
     background-color: blue;
     color:  black;
@@ -93,7 +94,7 @@ a{
     background-color: red;
   }
 
-  @media (max-height: 650px) {
+  @media (max-height: 50px) {
   body {
     background-color: lavender;
     color: navy;
@@ -104,7 +105,4 @@ img {
   max-width: 50%;
 }
 
-marquee{
-	transform: scale(100.0);
-}
 

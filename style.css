@@ -5,3 +5,7 @@ body{
     font-family: 'Franklin Gothic Medium';
     margin: 50px
 }
+
+a {
+    color: white;
+}

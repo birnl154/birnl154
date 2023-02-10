@@ -1,5 +1,33 @@
+@font-face {
+    font-family: 'IBMPlexSans-Bold';
+    src: url(../studio.html/fonts/) format('otf');
+    font-weight: normal;
+    font-style: normal;
+}
 
-
+h1 {
+    font-family: 'Righteous';
+    font-size: 100px;
+    color: white;
+    background-color: black;
+    margin: 20px;
+}
 body {
-    background-image: url ("");
+
+    background-image: url("../birnl154.github.io/images/shadow.tif");
+    background-attachment: scroll;
+    font-size: 50px;
+    font-family: 'Questrial';
+    background-color: black;
+    margin: 20px;
+}
+
+p{
+    font-family: 'Questrial';
+    color: white;
+    margin: 20px;
+}
+
+p:hover{
+    color: lightblue;
 }

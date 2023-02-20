@@ -182,10 +182,10 @@ h3:hover {
 #quotebtn {
     width: 250px;
     height: 80px;
-    background-color: blue;
+    background-color: rgb(133, 99, 75);
     color: white;
     font-family: 'odile';
 }
 #quotebtn:hover{
-    background-color: rgb(128, 0, 98);
+    background-color: rgb(133, 71, 0);
 }

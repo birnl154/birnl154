@@ -13,17 +13,100 @@
 body{
     background-image: url("../images2/scroll2.jpg");
     background-color: tan;
-    font-family: 'Herculanum';
+  font-family: "odile", serif;
+font-weight: 300;
+font-style: normal;
     margin: 100px; 
     text-align: center;
+    color: white;
+    padding: 40px;
+    text-justify: inter-character;
 }
 
+a {
+    position: fixed;
+    text-align: center;
+    color: white;
+    padding: 0%;
+    margin: 0;
+    left: 50px;
+    top: 150px;
+    text-decoration: none;
+}
 h1{
     font-family: 'Leviathan';
     font-size: 150px;
     text-align: center;
+    color: white;
 }
 @keyframes translate {
+    0% {
+      opacity: 0%; font-family: 'Leviathan';
+    }
+    5% {
+        opacity: 20%; font-family: 'Leviathan';
+    }
+    10% {
+        opacity: 40%; font-family: 'Leviathan'
+    }
+    15% {
+        opacity: 60%; font-family: 'Leviathan';
+    }
+    20% {
+        opacity: 80%; font-family: 'Leviathan';
+    }
+    25% {
+        opacity: 100%; font-family: 'Leviathan';
+    }
+    30% {
+        opacity: 80%; font-family: 'Leviathan';
+    }
+    35% {
+        opacity: 60%; font-family: 'Leviathan';
+    }
+    40% {
+        opacity: 40%; font-family: 'Leviathan';
+    }
+    45% {
+        opacity: 20%; font-family: 'Leviathan';
+    }
+    50% {
+        opacity: 0%; font-family: 'Leviathan';
+    }
+    55% {
+        opacity: 20%; font-family: 'odile';
+    }
+    60% {
+        opacity: 40%; font-family: 'odile';
+    }
+    65% {
+        opacity: 60%; font-family: 'odile';
+    }
+    70% {
+        opacity: 80%; font-family: 'odile';
+    }
+    75% {
+        opacity: 100%; font-family: 'odile';
+    }
+    80% {
+        opacity: 80%; font-family: 'odile';
+    }
+    85% {
+        opacity: 60%; font-family: 'odile';
+    }
+    90% {
+        opacity: 40%;font-family: 'odile';
+  }
+  95% {
+    opacity: 20%; font-family: 'odile';
+}
+  100% {
+    opacity: 0%; font-family: 'Leviathan';
+}
+}
+
+
+@keyframes body {
     0% {
       opacity: 100%; font-family: 'Leviathan';
     }
@@ -43,96 +126,139 @@ h1{
         opacity: 0%;
     }
     30% {
-        opacity: 20%; font-family: 'Herculanum';
+        opacity: 20%; font-family: 'odile';
     }
     35% {
-        opacity: 40%; font-family: 'Herculanum';
+        opacity: 40%; font-family: 'odile';
     }
     40% {
-        opacity: 60%; font-family: 'Herculanum';
+        opacity: 80%; font-family: 'odile';
     }
     45% {
-        opacity: 80%; font-family: 'Herculanum';
+        opacity: 100%; font-family: 'odile';
     }
     50% {
-        opacity: 100%; font-family: 'Herculanum';
+        opacity: 80%; font-family: 'odile';
     }
     55% {
-        opacity: 80%; font-family: 'Leviathan';
+        opacity: 40%; font-family: 'odile';
     }
     60% {
-        opacity: 60%; font-family: 'Leviathan';
+        opacity: 20%; font-family: 'odile';
     }
     65% {
-        opacity: 40%; font-family: 'Leviathan';
+        opacity: 0%; font-family: 'odile';
     }
     70% {
-        opacity: 20%; font-family: 'Leviathan';
-    }
-    80% {
-        opacity: 10%; font-family: 'Leviathan';
-    }
-    90% {
-        opacity: 5%;
-  }
-  100% {
-    opacity: 0%; font-family: 'Leviathan';
-}
-}
-@keyframes body {
-    0% {
-      opacity: 100%; font-family: 'Leviathan';
-    }
-    10% {
-        opacity: 80%; font-family: 'Leviathan';
-    }
-    20% {
-        opacity: 60%; font-family: 'Leviathan'
-    }
-    35% {
         opacity: 40%; font-family: 'Leviathan';
     }
-    40% {
-        opacity: 20%; font-family: 'Leviathan';
-    }
-    55% {
-        opacity: 0%;
-    }
-    60% {
-        opacity: 20%; font-family: 'Herculanum';
-    }
     75% {
-        opacity: 40%; font-family: 'Herculanum';
+        opacity: 60%; font-family: 'Leviathan';
     }
     80% {
-        opacity: 60%; font-family: 'Herculanum';
+        opacity: 80%; font-family: 'Leviathan';
+    }
+    85% {
+        opacity: 80%; font-family: 'Leviathan';
+    }
+    90% {
+        opacity: 80%; font-family: 'Leviathan';
     }
     95% {
-        opacity: 80%; font-family: 'Herculanum';
+        opacity: 80%; font-family: 'Leviathan';
     }
     100% {
-        opacity: 100%; font-family: 'Herculanum';
+        opacity: 80%; font-family: 'Leviathan';
     }
-
 }
+
  h1 {
     animation: translate 8s;
     animation-delay: 0s;
     animation-iteration-count: infinite;
-    animation-play-state: ease-in-out;
+    animation-play-state: ease-out;
+    color: white;
+    letter-spacing: 6px;
+
   }
 
   h2 {
     font-family: 'Leviathan';
     font-size: 40px;
+    color: white;
   }
   h2:hover {
-    font-family: 'Herculanum';
+    font-family: "odile", serif;
+font-weight: 300;
+font-style: normal;
     animation: body 10s;
     animation-play-state: ease-out;
     animation-iteration-count: 1;
+    color: white;
   }
   h3 {
     font-family: 'Leviathan';
     font-size: 40px;
+    color: white;
   }
+
+  h3:hover {
+    font-family: 'odile';
+    font-size: 40px;
+    color: white;
+  }
+
+#myVideo {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+    right:0;
+    top:0;
+    bottom:0;
+    z-index: -1;
+}
+
+
+#book {
+   align-content: center;
+   top: 20px;
+   position: relative;
+}
+
+#cursor:hover{
+	cursor: url(../images2/blackblob.png),auto;
+}
+
+#myBtn {
+    color: white;
+    font-family: 'odile';
+    background-color: black;
+    font-size: 20px;
+   padding: 10px;
+   width: 200px;
+}
+
+#myBtn:hover {
+    color: black;
+    font-family: 'odile';
+    background-color: white;
+    font-size: 20px;
+   padding: 10px;
+   width: 200px;
+}
+
+#footer{
+    background-color: black;
+    color: white;
+    padding: 15px;
+    display: block;
+    border-radius: 40px;
+    align-content: center;
+    text-align: center;
+}
+
+
+
+

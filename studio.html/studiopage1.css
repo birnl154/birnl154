@@ -1,0 +1,273 @@
+
+@font-face {
+    font-family: 'Leviathan';
+    src: url(fonts/Leviathan.woff2);
+    font-weight: normal;
+    font-style: normal;
+}
+body{
+    background-color:black;
+  font-family: "odile", serif;
+font-weight: 300;
+font-style: normal;
+    margin: 10px; 
+    text-align: center;
+    color: white;
+    padding: 10px;
+    text-justify: inter-character;
+}
+
+a {
+    position: relative;
+    float: left;
+    color: rgb(175, 148, 114);
+    margin: 0;
+    left: 0px;
+    top: 0px;
+    font-size: 30px;
+    font-family: 'Leviathan';
+    text-decoration: none;
+}
+
+a:hover {
+    font-family: 'odile';
+}
+h1{
+    font-family: 'Leviathan';
+    font-size: 20px;
+    text-align: left;
+    color: white;
+}
+
+
+@keyframes body {
+    0% {
+      opacity: 100%; font-family: 'Leviathan';font-size: 20px;
+    }
+    5% {
+        opacity: 80%; font-family: 'Leviathan';font-size: 20px;
+    }
+    10% {
+        opacity: 60%; font-family: 'Leviathan';font-size: 20px;
+    }
+    15% {
+        opacity: 40%; font-family: 'Leviathan';font-size: 20px;
+    }
+    20% {
+        opacity: 20%; font-family: 'Leviathan';font-size: 20px;
+    }
+    25% {
+        opacity: 0%;font-size: 20px;
+    }
+    30% {
+        opacity: 20%; font-family: 'odile';font-size: 20px;line-height: 30px;
+    }
+    35% {
+        opacity: 40%; font-family: 'odile';font-size: 20px;line-height: 30px;
+    }
+    40% {
+        opacity: 80%; font-family: 'odile';font-size: 20px;line-height: 30px;
+    }
+    45% {
+        opacity: 100%; font-family: 'odile';font-size: 20px;line-height: 30px;
+    }
+    50% {
+        opacity: 80%; font-family: 'odile';font-size: 20px;line-height: 30px;
+    }
+    55% {
+        opacity: 40%; font-family: 'odile';font-size: 20px;line-height: 30px;
+    }
+    60% {
+        opacity: 20%; font-family: 'odile';font-size: 20px;line-height: 30px;
+    }
+    65% {
+        opacity: 0%; font-family: 'odile';font-size: 20px;line-height: 30px;
+    }
+    70% {
+        opacity: 40%; font-family: 'Leviathan';font-size: 20px;
+    }
+    75% {
+        opacity: 60%; font-family: 'Leviathan';font-size: 20px;
+    }
+    80% {
+        opacity: 80%; font-family: 'Leviathan';font-size: 20px;
+    }
+    85% {
+        opacity: 80%; font-family: 'Leviathan';font-size: 20px;
+    }
+    90% {
+        opacity: 80%; font-family: 'Leviathan';font-size: 20px;
+    }
+    95% {
+        opacity: 80%; font-family: 'Leviathan';font-size: 20px;
+    }
+    100% {
+        opacity: 80%; font-family: 'Leviathan';font-size: 20px;
+    }
+}
+
+ h1 {
+    animation: translate 8s;
+    animation-delay: 0s;
+    font-size: 30px;
+    text-align: left;
+    animation-iteration-count: infinite;
+    animation-play-state: ease-out;
+    color: white;
+  }
+
+  h2 {
+    font-family: 'Leviathan';
+    font-size: 20px;
+    color: white;
+    text-align: left;
+  }
+  h2:hover {
+    font-family: "odile", serif;
+    letter-spacing: 1px;
+  }
+  h3 {
+    font-family: 'Leviathan';
+    font-size: 20px;
+    color: white;
+  }
+
+#myVideo {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+    right:0;
+    top:0;
+    bottom:0;
+    z-index: -1;
+}
+
+
+#book {
+   position: relative;
+   float: right;
+}
+
+#cursor:hover{
+	cursor: url(../images2/whiteblob.png),auto;
+}
+
+#myBtn {
+    color: black;
+    font-family: 'odile';
+    background-color: tan;
+    font-size: 20px;
+   padding: 10px;
+   width: 200px;
+   float: left;
+}
+
+#myBtn:hover {
+    color: tan;
+    font-family: 'odile';
+    background-color: black;
+    font-size: 20px;
+   padding: 10px;
+   width: 200px;
+   float: left;
+}
+
+#octagon {
+    width: 200px;
+    height: 200px;
+}
+
+  @keyframes yinYangSpin {
+    0% { transform: rotate(0);
+    }
+    100% { transform: rotate(1turn);
+    }
+    }
+
+    #octagon:hover{
+        animation-name: yinYangSpin;
+        cursor: pointer;
+        animation-duration: 3s;
+      }
+
+      #octagon {
+        width: 200px;
+        height: 200px;
+    }
+    
+        #octagon:hover{
+            animation-name: yinYangSpin;
+            cursor: pointer;
+            animation-duration: 3s;
+          }
+
+
+          #octagontwo {
+            width: 200px;
+            height: 200px;
+        }
+        
+          @keyframes opacity {
+            0% { transform: rotate(0);
+            }
+            50% {opacity: 50%};
+            100% { opacity: 80%};
+            }
+            
+        
+            #octagontwo:hover{
+                animation-name: opacity;
+                cursor: pointer;
+                animation-duration: 3s;
+              }
+
+              #octagonthree {
+                width: 200px;
+                height: 200px;
+            }
+           
+            
+                #octagonthree:hover{
+                    animation-name: yinYangSpin;
+                    cursor: pointer;
+                    animation-duration: 3s;
+                  }
+
+                  #octagonfour {
+                    width: 200px;
+                    height: 200px;
+                }
+                
+                    #octagonfour:hover{
+                        animation-name: yinYangSpin;
+                        cursor: pointer;
+                        animation-duration: 3s;
+                      }
+                      #octagonfive {
+                        width: 200px;
+                        height: 200px;
+                    }
+                    
+                        #octagonfive:hover{
+                            animation-name: yinYangSpin;
+                            cursor: pointer;
+                            animation-duration: 3s;
+                          }
+                          #octagonsix {
+                            width: 200px;
+                            height: 200px;
+                        }
+                        
+                            #octagonsix:hover{
+                                animation-name: yinYangSpin;
+                                cursor: pointer;
+                                animation-duration: 3s;
+                              }
+                             
+
+#footer{
+    background-color: black;
+    color: white;
+}

@@ -153,6 +153,7 @@ h3:hover {
     left: 500px;
     top: 70px;
     position: relative;
+    float:right;
  }
 
 #cursor:hover{

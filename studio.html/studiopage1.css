@@ -19,7 +19,7 @@ font-style: normal;
 
 a {
     position: relative;
-    float: left;
+    float: center;
     color: rgb(175, 148, 114);
     margin: 0;
     left: 0px;
@@ -147,6 +147,7 @@ h1{
 
 #book {
    position: relative;
+   float:right;
 }
 
 #cursor:hover{

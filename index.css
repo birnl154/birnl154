@@ -17,7 +17,8 @@ body {
 a{
     font-family: 'Questrial';
     color: white;
-    margin: 20px;
+    align-content: left;
+    word-spacing: 20px;
 }
 
 a:hover{

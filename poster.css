@@ -79,7 +79,7 @@ letter-spacing: 4px;
     left: 530px;
     top: 320px;
     font-family: 'PT Mono', monospace;
-    color:  rgb(10, 124, 25);
+    color:  linear-gradient(.25turn, black, green, black);
     font-size:  2px;
     text-align:  center;
     position: fixed;

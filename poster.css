@@ -73,14 +73,14 @@ letter-spacing: 4px;
 .container {
     display: flex;
     padding:5px;
-    background-color: rgb(10, 124, 25);
+    background-color: green;
    height: 175px;
     width: 240px;
     left: 530px;
     top: 320px;
     font-family: 'PT Mono', monospace;
-    color:  linear-gradient(.25turn, black, green, black);
     font-size:  2px;
+    color: green;
     text-align:  center;
     position: fixed;
   }

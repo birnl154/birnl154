@@ -1,0 +1,131 @@
+/* CSS files add styling rules to your content */
+@import url("https://fonts.googleapis.com/css2?family=Karla:ital@0;1&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Space+Mono&display=swap");
+
+ 
+body {
+  margin: 0;
+  background-color: black;
+}
+
+.tutorial {
+  padding: 2em;
+  background-color: black;
+}
+
+.title {
+  font-family: "totally-gothic", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+ color:white;
+}
+
+.info {
+ font-family: "itc-benguiat", serif;
+ font-weight: 400;
+ font-style: normal;
+ color: white;
+}
+
+/* Common Device Sizes via https://www.w3schools.com/howto/howto_css_media_query_breakpoints.asp */
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 767px) {
+  .tutorial {
+    background-color: blue;
+   }
+   body {
+    margin: 0;
+    background-color: blue;
+   }
+    .title {
+      font-family: "totally-gothic", sans-serif;
+      font-weight: 400;
+      font-style: normal;
+      color:rgb(119, 255, 0);
+      font-size: 25px;
+     }
+     
+     .info {
+      font-family: "itc-benguiat", serif;
+font-weight: 400;
+font-style: normal;
+      color: rgb(119, 255, 0);
+      font-size:10px;
+     }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .tutorial {
+    background-color: rgb(170, 128, 128);
+   }
+   body {
+    margin: 0;
+    background-color: rgb(170, 128, 128);
+   }
+    .title {
+      font-family: 'karla';
+      color:white;
+      font-size: 50px;
+     }
+     
+     .info {
+      font-family: "itc-benguiat", serif;
+font-weight: 400;
+font-style: normal;
+      color: white;
+      font-size: 15px;
+     }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 1024px) {
+ .tutorial {
+  background-color: red;
+ }
+ body {
+  margin: 0;
+  background-color: red;
+ }
+  .title {
+    font-family: "totally-gothic", sans-serif;
+font-weight: 400;
+font-style: normal;
+    color: black;
+    font-size: 75px;
+   }
+   
+   .info {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+    font-size: 25px;
+   }
+}
+
+  
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .tutorial {
+    background-color: rgb(119, 255, 0);
+   }
+   body {
+    margin: 0;
+    background-color: rgb(119, 255, 0);
+  }
+  .title {
+    font-family: "totally-gothic", sans-serif;
+font-weight: 400;
+font-style: normal;
+    color:rgb(130, 0, 0);
+    font-size: 100px;
+   }
+   
+   .info {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(130, 0, 0);
+    font-size: 50px
+   }
+}

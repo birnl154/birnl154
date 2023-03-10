@@ -25,3 +25,29 @@ h4 {
     font-family: 'HERCULANUM', cursive;
     font-size: 100px;
 }
+
+
+.wholepage {
+    display:flex;
+
+}
+
+.featured {
+    
+}
+
+.inthenews {
+    
+}
+
+.onthisday {
+    
+}
+
+.rightbigbox {
+    background-color: aqua;
+}
+
+.leftbigbox {
+    background-color: green;
+}

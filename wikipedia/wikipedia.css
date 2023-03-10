@@ -1,43 +1,156 @@
 /* Common Device Sizes via https://www.w3schools.com/howto/howto_css_media_query_breakpoints.asp */
 
-background-color:#f8f9fa;
-.wrapper {
-    display:flex;
-    flex-direction: row-reverse;
-    padding: 10px;
-    margin: 4px;
-    flex-direction: column;
+.header {
+    position: relative;
+    top:0px;
+    align-items: flex-start;
+    position: absolute;
 }
 
-.topleft {
+.login {
+    display: inline-block;
+    color: blue;
+    float: right;
+    position: absolute;
+    top:20px;
+
+}
+.search {
+    border: .5px solid #aaa;
+    padding: 0.5em 0.5em;
+    width: 400px;
+    margin-top: 4px;
+    color:rgb(151, 149, 149);
+    text-align:justify;
+    position: absolute;
+    display: inline-block;
+}
+
+body{
+    margin: 200px;
+    margin-top: 0px;
+    font-family: sans-serif;
+}
+.firstpart {
     display:flex;
+    display:flex;
+    flex-direction: row;
+    padding: 10px;
+    margin: 4px;
+    gap: 20px;
+    justify-content: center;
+}
+
+
+.leftbigbox {
     flex-direction: column;
     background-color: #f5fffa;
-    border-color:#cef2e0;
-    font-family: serif;
+    border:.5px solid#cef2e0;
+    padding: 5px;
+    width: 4500px;
 }
-.topright {
+.rightbigbox {
     display:flex;
     flex-direction: column;
     background: #f5faff;
-    border-color: #cedff2;
-    font-family: serif;
+    border: .5px solid  #cedff2;
+    padding: 5px;
+    width: 4500px;
 }
 h1{
-    border: 1px solid #aaa;
+    border: .5px solid #aaa;
     margin: 0.5em 0;
     padding: 0.2em 0.4em;
     font-size: 120%;
     font-weight: bold;
-    font-family: inherit;
+    font-family: sans-serif;
 }
+
+h3{
+    background-color:#cef2e0;
+    font-size: 120%;
+    font-weight: bold;
+    font-family: sans-serif;
+    border:.5px solid #a3bfb1
+}
+
+h5{
+    font-size: 120%;
+    font-weight: bold;
+    font-family: sans-serif;
+    background-color: #eee;
+    border: .5px solid #aaa;
+    padding: 5px;
+}
+p{
+    font-weight:normal;
+    font-size: 14px;
+    line-height: 22px;
+}
+
+.topbanner {
+    justify-content:space-between;
+    background-color:#f9f9f9;
+    border: .5px solid #ddd;
+    text-align: center;
+}
+
+.secondpart {
+    display:flex;
+    flex-direction: column;
+    padding: 10px;
+    margin: 4px;
+    gap: 20px;
+    text-align: left;
+}
+
+.featuredpicture {
+    background: #faf5ff;
+    border: .5px solid  #ddcef2;
+    padding: 5px;
+    display: inline-block;
+}
+
+.otherareas {
+    border: .5px solid #aaa;
+    padding: 0 0.5em 0.5em;
+    margin-top: 4px;
+}
+
+.sisterprojects {
+    border: .5px solid #aaa;
+    padding: 0 0.5em 0.5em;
+    margin-top: 4px;
+}
+
+.Wikipedialanguages {
+    border: .5px solid #aaa;
+    padding: 0 0.5em 0.5em;
+    margin-top: 4px;
+}
+
+hr { 
+    display: block; 
+    overflow: hidden; 
+    border-style: inset; 
+    border-width: 1px;}
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 767px) 
 
 
 
   /* Medium devices (landscape tablets, 768px and up) */
-  @media only screen and (min-width: 768px) 
+  @media only screen and (min-width: 768px) {
+.firstpart {
+    display:flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    margin: 4px;
+    gap: 20px;
+    justify-content: center;}
+    
+}
+  }
 
 
 

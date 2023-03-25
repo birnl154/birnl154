@@ -1,10 +1,9 @@
-/* Common Device Sizes via https://www.w3schools.com/howto/howto_css_media_query_breakpoints.asp */
+
 
 .header {
     position: relative;
     top:0px;
     align-items: flex-start;
-    position: absolute;
 }
 
 .login {
@@ -13,6 +12,7 @@
     float: right;
     position: absolute;
     top:20px;
+    right:0px;
 
 }
 .search {
@@ -22,7 +22,6 @@
     margin-top: 4px;
     color:rgb(151, 149, 149);
     text-align:justify;
-    position: absolute;
     display: inline-block;
 }
 
@@ -65,13 +64,29 @@ h1{
     font-weight: bold;
     font-family: sans-serif;
 }
-
+h2 {
+    background-color: #cedff2;
+    font-size: 120%;
+    font-weight: bold;
+    font-family: sans-serif;
+    padding: 5px;
+    border:.5px solid #a3bfb1
+}
 h3{
     background-color:#cef2e0;
     font-size: 120%;
     font-weight: bold;
     font-family: sans-serif;
     border:.5px solid #a3bfb1
+}
+
+h4 {
+    background-color: #ddcef2;
+    font-size: 120%;
+    font-weight: bold;
+    font-family: sans-serif;
+    border:.5px solid #978ca5;
+    padding: 5px;
 }
 
 h5{
@@ -82,6 +97,25 @@ h5{
     border: .5px solid #aaa;
     padding: 5px;
 }
+
+h6 {
+    font-size: 120%;
+    font-weight: bold;
+    font-family: sans-serif;
+    background-color: #f2cedd;
+    border: .5px solid #8e6b7a;
+    padding: 5px;
+}
+
+   /*in the top banner */
+h8 {
+    font-size: 120%;
+    font-weight: bold;
+    font-family: sans-serif;
+    padding: 0.2em 0.4em;
+}
+
+   /*standard text for whole page */
 p{
     font-weight:normal;
     font-size: 14px;
@@ -93,6 +127,7 @@ p{
     background-color:#f9f9f9;
     border: .5px solid #ddd;
     text-align: center;
+    padding: 15px;
 }
 
 .secondpart {
@@ -111,6 +146,12 @@ p{
     display: inline-block;
 }
 
+.featuredlist {
+    background: #fff5fa;
+    border-color: #f2cedd;
+    padding: 5px;
+    display: inline-block;
+}
 .otherareas {
     border: .5px solid #aaa;
     padding: 0 0.5em 0.5em;
@@ -134,35 +175,43 @@ hr {
     overflow: hidden; 
     border-style: inset; 
     border-width: 1px;}
+
+
+
 /* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 767px) 
+@media only screen and (max-width: 767px) { .firstpart {
+    flex-wrap:wrap;
+    position:relative;
+margin:0px}
 
-
-
-  /* Medium devices (landscape tablets, 768px and up) */
-  @media only screen and (min-width: 768px) {
-.firstpart {
-    display:flex;
-    flex-wrap: wrap;
-    padding: 10px;
-    margin: 4px;
-    gap: 20px;
-    justify-content: center;}
-    
+body{
+    margin:0px;
 }
-  }
+}
+   
 
 
 
+  @media only screen and (min-width: 768px) 
+    /*this is what i edit on so this is the "normal" */
+{}
   
   /* Large devices (laptops/desktops, 992px and up) */
   @media only screen and (min-width: 1024px) 
-   
-    
+   /*accomdating margin so it doesn't seem small */
+  { 
+    body{
+        margin:250px;
+    }
+    }
 
 
   
   /* Extra large devices (large laptops and desktops, 1200px and up) */
   @media only screen and (min-width: 1200px) 
-  
-
+     /*accomdating margin so it doesn't seem small */
+  { 
+    body{
+        margin:300px;
+    }
+    }

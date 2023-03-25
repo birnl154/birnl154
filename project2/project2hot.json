@@ -1,0 +1,110 @@
+[
+    {
+        "name": "Subject 1",
+        "coffeeOrder": "Americano or Cappuccino with oatmilk or 2% milk ",
+        "frequencySubjectDrinks": "Once a day",
+        "lengthOfTimeSubjectHasBeenDrinkingCoffee": "8 years"
+    },
+    {
+        "name": "Subject 2",
+        "coffeeOrder": "Hot latte with flavored syrup",
+        "frequencySubjectDrinks": "Once a week",
+        "lengthOfTimeSubjectHasBeenDrinkingCoffee": "6 years"
+    },
+    {
+        "name": "Subject 3",
+        "coffeeOrder": "Large americano with oatmilk",
+        "frequencySubjectDrinks": "Twice a day",
+        "lengthOfTimeSubjectHasBeenDrinkingCoffee": "8 years"
+    },
+    {
+        "name": "Subject 4",
+        "coffeeOrder": "Caramel latte with wholemilk or oatmilk",
+        "frequencySubjectDrinks": "Once a day",
+        "lengthOfTimeSubjectHasBeenDrinkingCoffee": "2.5 years"
+    },
+    {
+        "name": "Subject 5",
+        "coffeeOrder": "Caramel latte with wholemilk ",
+        "frequencySubjectDrinks": "3 times a week",
+        "lengthOfTimeSubjectHasBeenDrinkingCoffee": "8.5 years"
+    },
+    {
+        "name": "Subject 6",
+        "coffeeOrder": "Hot americano with oatmilk",
+        "frequencySubjectDrinks": "Once a day",
+        "lengthOfTimeSubjectHasBeenDrinkingCoffee": "11-12 years"
+    },
+    {
+        "name": "Subject 7",
+        "coffeeOrder": "Mocha with oatmilk",
+        "frequencySubjectDrinks": "Once a week",
+        "lengthOfTimeSubjectHasBeenDrinkingCoffee": "1.5 years"
+    },
+    {
+        "name": "Subject 8",
+        "coffeeOrder": "Vanilla latte with oatmilk",
+        "frequencySubjectDrinks": "Once a day",
+        "lengthOfTimeSubjectHasBeenDrinkingCoffee": "8 years"
+    },
+    {
+        "name": "Subject 9",
+        "coffeeOrder": "Macchiato with oatmilk",
+        "frequencySubjectDrinks": "Once a day",
+        "lengthOfTimeSubjectHasBeenDrinkingCoffee": "5 years"
+    },
+    {
+        "name": "Subject 10",
+        "coffeeOrder": "Hot black coffee",
+        "frequencySubjectDrinks": "4-5 times a week",
+        "lengthOfTimeSubjectHasBeenDrinkingCoffee": "2 years"
+    },
+    {
+        "name": "Subject 11",
+        "coffeeOrder": "Hot black coffee with oatmilk",
+        "frequencySubjectDrinks": "Once a day",
+        "lengthOfTimeSubjectHasBeenDrinkingCoffee": "2 years"
+    },
+    {
+        "name": "Subject 12",
+        "coffeeOrder": "Americano",
+        "frequencySubjectDrinks": "1-3 times a day",
+        "lengthOfTimeSubjectHasBeenDrinkingCoffee": "10 years"
+    },
+    {
+        "name": "Subject 13",
+        "coffeeOrder": "Black hot coffee",
+        "frequencySubjectDrinks": "2-4 times a day",
+        "lengthOfTimeSubjectHasBeenDrinkingCoffee": "5 years"
+    },
+    {
+        "name": "Subject 14",
+        "coffeeOrder": "Hot black coffee with whole milk",
+        "frequencySubjectDrinks": "3-4 times a day",
+        "lengthOfTimeSubjectHasBeenDrinkingCoffee": "7 years"
+    },
+    {
+        "name": "Subject 15",
+        "coffeeOrder": "Hot maple latte with whole milk",
+        "frequencySubjectDrinks": "Every other day",
+        "lengthOfTimeSubjectHasBeenDrinkingCoffee": "12 years"
+    },
+    {
+        "name": "Subject 16",
+        "coffeeOrder": "Caramel macchiato ",
+        "frequencySubjectDrinks": "1-2 times a day",
+        "lengthOfTimeSubjectHasBeenDrinkingCoffee": "5.5 years"
+    },
+    {
+        "name": "Subject 17",
+        "coffeeOrder": "Mocha with milk",
+        "frequencySubjectDrinks": "3-4 times a week",
+        "lengthOfTimeSubjectHasBeenDrinkingCoffee": "5 years"
+    },
+    {
+        "name": "Subject 18",
+        "coffeeOrder": "Hot vanilla latte with oatmilk or 2% milk",
+        "frequencySubjectDrinks": "1-2 times a day",
+        "lengthOfTimeSubjectHasBeenDrinkingCoffee": "8 years"
+    }
+]

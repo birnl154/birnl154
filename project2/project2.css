@@ -34,3 +34,20 @@ h3 {
     color:rgb(106, 63, 44);
 } */
 
+.name {
+    padding: 7px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    height: 10vh;
+}
+
+img hover: {
+opacity: 50%;
+}

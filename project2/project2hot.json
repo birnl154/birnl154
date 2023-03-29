@@ -1,110 +1,128 @@
 [
     {
-        "name": "Subject 1",
+        "id": "Subject 1",
         "coffeeOrder": "Americano or Cappuccino with oatmilk or 2% milk ",
         "frequencySubjectDrinks": "Once a day",
+        "image": "Subject1.png",
         "lengthOfTimeSubjectHasBeenDrinkingCoffee": "8 years"
     },
     {
-        "name": "Subject 2",
+        "id": "Subject 2",
         "coffeeOrder": "Hot latte with flavored syrup",
         "frequencySubjectDrinks": "Once a week",
+        "image": "Subject2.png",
         "lengthOfTimeSubjectHasBeenDrinkingCoffee": "6 years"
     },
     {
-        "name": "Subject 3",
+        "id": "Subject 3",
         "coffeeOrder": "Large americano with oatmilk",
         "frequencySubjectDrinks": "Twice a day",
+        "image": "Subject3.png",
         "lengthOfTimeSubjectHasBeenDrinkingCoffee": "8 years"
     },
     {
-        "name": "Subject 4",
+        "id": "Subject 4",
         "coffeeOrder": "Caramel latte with wholemilk or oatmilk",
         "frequencySubjectDrinks": "Once a day",
+        "image": "Subject4.png",
         "lengthOfTimeSubjectHasBeenDrinkingCoffee": "2.5 years"
     },
     {
-        "name": "Subject 5",
+        "id": "Subject 5",
         "coffeeOrder": "Caramel latte with wholemilk ",
         "frequencySubjectDrinks": "3 times a week",
+        "image": "Subject5.png",
         "lengthOfTimeSubjectHasBeenDrinkingCoffee": "8.5 years"
     },
     {
-        "name": "Subject 6",
+        "id": "Subject 6",
         "coffeeOrder": "Hot americano with oatmilk",
         "frequencySubjectDrinks": "Once a day",
+        "image": "Subject6.png",
         "lengthOfTimeSubjectHasBeenDrinkingCoffee": "11-12 years"
     },
     {
-        "name": "Subject 7",
+        "id": "Subject 7",
         "coffeeOrder": "Mocha with oatmilk",
         "frequencySubjectDrinks": "Once a week",
+        "image": "Subject7.png",
         "lengthOfTimeSubjectHasBeenDrinkingCoffee": "1.5 years"
     },
     {
-        "name": "Subject 8",
+        "id": "Subject 8",
         "coffeeOrder": "Vanilla latte with oatmilk",
         "frequencySubjectDrinks": "Once a day",
+        "image": "Subject8.png",
         "lengthOfTimeSubjectHasBeenDrinkingCoffee": "8 years"
     },
     {
-        "name": "Subject 9",
+        "id": "Subject 9",
         "coffeeOrder": "Macchiato with oatmilk",
         "frequencySubjectDrinks": "Once a day",
+        "image": "Subject9.png",
         "lengthOfTimeSubjectHasBeenDrinkingCoffee": "5 years"
     },
     {
-        "name": "Subject 10",
+        "id": "Subject 10",
         "coffeeOrder": "Hot black coffee",
         "frequencySubjectDrinks": "4-5 times a week",
+        "image": "Subject10.png",
         "lengthOfTimeSubjectHasBeenDrinkingCoffee": "2 years"
     },
     {
-        "name": "Subject 11",
+        "id": "Subject 11",
         "coffeeOrder": "Hot black coffee with oatmilk",
         "frequencySubjectDrinks": "Once a day",
+        "image": "Subject11.png",
         "lengthOfTimeSubjectHasBeenDrinkingCoffee": "2 years"
     },
     {
-        "name": "Subject 12",
+        "id": "Subject 12",
         "coffeeOrder": "Americano",
         "frequencySubjectDrinks": "1-3 times a day",
+        "image": "Subject12.png",
         "lengthOfTimeSubjectHasBeenDrinkingCoffee": "10 years"
     },
     {
-        "name": "Subject 13",
+        "id": "Subject 13",
         "coffeeOrder": "Black hot coffee",
         "frequencySubjectDrinks": "2-4 times a day",
+        "image": "Subject13.png",
         "lengthOfTimeSubjectHasBeenDrinkingCoffee": "5 years"
     },
     {
-        "name": "Subject 14",
+        "id": "Subject 14",
         "coffeeOrder": "Hot black coffee with whole milk",
         "frequencySubjectDrinks": "3-4 times a day",
+        "image": "Subject14.png",
         "lengthOfTimeSubjectHasBeenDrinkingCoffee": "7 years"
     },
     {
-        "name": "Subject 15",
+        "id": "Subject 15",
         "coffeeOrder": "Hot maple latte with whole milk",
         "frequencySubjectDrinks": "Every other day",
+        "image": "Subject15.png",
         "lengthOfTimeSubjectHasBeenDrinkingCoffee": "12 years"
     },
     {
-        "name": "Subject 16",
+        "id": "Subject 16",
         "coffeeOrder": "Caramel macchiato ",
         "frequencySubjectDrinks": "1-2 times a day",
+        "image": "Subject16.png",
         "lengthOfTimeSubjectHasBeenDrinkingCoffee": "5.5 years"
     },
     {
-        "name": "Subject 17",
+        "id": "Subject 17",
         "coffeeOrder": "Mocha with milk",
         "frequencySubjectDrinks": "3-4 times a week",
+        "image": "Subject17.png",
         "lengthOfTimeSubjectHasBeenDrinkingCoffee": "5 years"
     },
     {
-        "name": "Subject 18",
+        "id": "Subject 18",
         "coffeeOrder": "Hot vanilla latte with oatmilk or 2% milk",
         "frequencySubjectDrinks": "1-2 times a day",
+        "image": "Subject18.png",
         "lengthOfTimeSubjectHasBeenDrinkingCoffee": "8 years"
     }
 ]

@@ -8,27 +8,25 @@
 }
 
 body {
-    margin: 20px;
-    background: #FFFFFF;
-
+    margin-left: 50px;
+    color:white;
 }
 h1{
     font-family: 'Rigatoni';
-    color:rgb(106, 63, 44);
-    font-size: 200px;
-    float: center;
+    color:white;
+    font-size: 50px;
 }
 
 h2 {
     font-family: 'Rigatoni';
     font-size: 20px;
-    color:rgb(106, 63, 44);
+    color:white;
     text-decoration: none;
 }
 
 h3 {
     font-family: Arial, Helvetica, sans-serif;
-    color: rgb(162, 154, 141);
+    color: white;
 }
 /* h2:hover {
     opacity: 70%;
@@ -45,28 +43,19 @@ h3 {
 }
 
 .flex-container {
-    display: flex;
+    display: list-item;
     flex-direction: row;
     justify-content:space-around;
     height: 10vh;
 }
 
-#hot:hover {
-    opacity: 50%;
+img {
+    width: 300px;
+    height: 300px;
 }
 
-#iced:hover {
-    opacity: 50%;
-}
-
-#drop1 {
-
-position: absolute;
-width: 68.21px;
-height: 138.38px;
-left: 453.29px;
-top: 221.72px;
-
-background: #B76363;
-border: 3px solid #6A3F2C;
+body {
+    background: #603813;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, # #d5c5bc, #603813);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, # #d5c5bc, #603813); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }

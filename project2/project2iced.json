@@ -38,90 +38,105 @@
         "id": "Subject 24",
         "coffeeOrder": "Iced mocha with 2% milk",
         "frequencySubjectDrinks": "3 times a week",
+        "image": "Subject24.png",
         "lengthOfTimeSubjectHasBeenDrinkingCoffee": "1.5 years"
     },
     {
         "id": "Subject 25",
         "coffeeOrder": "Iced caramel latte with regular milk",
         "frequencySubjectDrinks": "Every other day",
+        "image": "Subject25.png",
         "lengthOfTimeSubjectHasBeenDrinkingCoffee": "4 years"
     },
     {
         "id": "Subject 26",
         "coffeeOrder": "Iced caramel latte with almondmilk",
         "frequencySubjectDrinks": "3 times a week",
+        "image": "Subject26.png",
         "lengthOfTimeSubjectHasBeenDrinkingCoffee": "5.5 years"
     },
     {
         "id": "Subject 27",
         "coffeeOrder": "Iced hazelnut latte with almondmilk",
         "frequencySubjectDrinks": "Every other day",
+        "image": "Subject27.png",
         "lengthOfTimeSubjectHasBeenDrinkingCoffee": "5 years"
     },
     {
         "id": "Subject 28",
         "coffeeOrder": "Iced vanilla latte with 2% milk",
         "frequencySubjectDrinks": "Once a day",
+        "image": "Subject28.png",
         "lengthOfTimeSubjectHasBeenDrinkingCoffee": "4 years"
     },
     {
         "id": "Subject 29",
         "coffeeOrder": "Iced vanilla latte with oatmlik",
         "frequencySubjectDrinks": "Once a week",
+        "image": "Subject29.png",
         "lengthOfTimeSubjectHasBeenDrinkingCoffee": "8 years"
     },
     {
         "id": "Subject 30",
         "coffeeOrder": "Iced latte with oatmilk",
         "frequencySubjectDrinks": "Once a day",
+        "image": "Subject30.png",
         "lengthOfTimeSubjectHasBeenDrinkingCoffee": "6 years"
     },
     {
         "id": "Subject 31",
         "coffeeOrder": "Iced latte or dirty chai with coconut milk",
         "frequencySubjectDrinks": "5-8 times a week",
+        "image": "Subject31.png",
         "lengthOfTimeSubjectHasBeenDrinkingCoffee": "8 years"
     },
     {
         "id": "Subject 32",
         "coffeeOrder": "Iced latte with whole milk",
         "frequencySubjectDrinks": "2-3 times a week",
+        "image": "Subject32.png",
         "lengthOfTimeSubjectHasBeenDrinkingCoffee": "3.5 years"
     },
     {
         "id": "Subject 33",
         "coffeeOrder": "Iced vanilla or hazelnut latte with skim milk",
         "frequencySubjectDrinks": "Once a day",
+        "image": "Subject33.png",
         "lengthOfTimeSubjectHasBeenDrinkingCoffee": "5.5 years"
     },
     {
         "id": "Subject 34",
         "coffeeOrder": "Iced caramel coffee with oatmilk ",
         "frequencySubjectDrinks": "Once a day",
+        "image": "Subject34.png",
         "lengthOfTimeSubjectHasBeenDrinkingCoffee": "8 years"
     },
     {
         "id": "Subject 35",
         "coffeeOrder": "Iced latte with hazelnut or vanilla with regular milk",
         "frequencySubjectDrinks": "1-2 times a week",
+        "image": "Subject35.png",
         "lengthOfTimeSubjectHasBeenDrinkingCoffee": "5 years"
     },
     {
         "id": "Subject 36",
         "coffeeOrder": "Iced latte with almondmilk",
         "frequencySubjectDrinks": "Once a day",
+        "image": "Subject36.png",
         "lengthOfTimeSubjectHasBeenDrinkingCoffee": "4 years"
     },
     {
         "id": "Subject 37",
         "coffeeOrder": "Iced toasted vanilla espresso with oatmilk",
         "frequencySubjectDrinks": "3-4 times a week",
+        "image": "Subject37.png",
         "lengthOfTimeSubjectHasBeenDrinkingCoffee": "4 years"
     },
     {
         "id": "Subject 38",
         "coffeeOrder": "Iced latte with oatmilk",
         "frequencySubjectDrinks": "Once a day",
+        "image": "Subject38.png",
         "lengthOfTimeSubjectHasBeenDrinkingCoffee": "5 years"
     }
 ]

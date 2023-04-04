@@ -1,4 +1,8 @@
 
+h3 {
+    font-family: "franklin-gothic-urw", sans-serif;
+font-weight: 300;
+font-style: normal;}
 
 @font-face {
     font-family: 'Rigatoni';
@@ -7,20 +11,22 @@
     font-style: normal;
 }
 
-body {
-    margin-left: 50px;
-    color:white;
-}
+
 h1{
     font-family: 'Rigatoni';
-    color:white;
+    color: rgb(106, 63, 44);
     font-size: 50px;
 }
+p {
+    font-family: "franklin-gothic-urw", sans-serif;
+    color: white;
+font-weight: 300;
+font-style: normal;}
 
 h2 {
     font-family: 'Rigatoni';
     font-size: 20px;
-    color:white;
+    color: rgb(106, 63, 44);
     text-decoration: none;
 }
 
@@ -43,11 +49,13 @@ h3 {
 }
 
 .flex-container {
-    display: list-item;
-    flex-direction: row;
-    justify-content:space-around;
-    height: 10vh;
+    height: 100vh;
+    display: flex;
+  align-items: center;
+  justify-content: center;
 }
+
+
 
 img {
     width: 300px;
@@ -55,7 +63,8 @@ img {
 }
 
 body {
-    background: #603813;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #d5c5bc, #603813);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #d5c5bc, #603813); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    height: 7000px;
+  background-color: #d5c5bc;/* For browsers that do not support gradients */
+  background-image: linear-gradient(white, #d5c5bc,  #603813);
+
 }

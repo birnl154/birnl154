@@ -1,142 +1,162 @@
 [
     {
         "id": "Subject 19",
-        "coffeeOrder": "Iced coffee with almondmilk or oatmilk ",
+        "coffeeOrder": "Iced coffee with almondmilk or oatmilk",
         "frequencySubjectDrinks": "3-4 times a week",
         "image": "Subject19.png",
-        "lengthOfTimeSubjectHasBeenDrinkingCoffee": "1.5 years"
+        "lengthOfTimeSubjectHasBeenDrinkingCoffee": "1.5 years",
+        "url": "subject19.html"
     },
     {
         "id": "Subject 20",
         "coffeeOrder": "Iced americano or iced latte with almond milk",
         "frequencySubjectDrinks": "Once a day",
         "image": "Subject20.png",
-        "lengthOfTimeSubjectHasBeenDrinkingCoffee": "5.5 years"
+        "lengthOfTimeSubjectHasBeenDrinkingCoffee": "5.5 years",
+        "url": "popup20.html"
     },
     {
         "id": "Subject 21",
         "coffeeOrder": "Iced caramel macchiato or hot caramel latte",
         "image": "Subject21.png",
         "frequencySubjectDrinks": "1-2 times a day",
-        "lengthOfTimeSubjectHasBeenDrinkingCoffee": "13 years"
+        "lengthOfTimeSubjectHasBeenDrinkingCoffee": "13 years",
+        "url": "popup21.html"
     },
     {
         "id": "Subject 22",
         "coffeeOrder": "Iced latte",
         "frequencySubjectDrinks": "Once every few weeks",
         "image": "Subject22.png",
-        "lengthOfTimeSubjectHasBeenDrinkingCoffee": "6 years"
+        "lengthOfTimeSubjectHasBeenDrinkingCoffee": "6 years",
+        "url": "popup22.html"
     },
     {
         "id": "Subject 23",
-        "coffeeOrder": "Iced latte with oat milk ",
+        "coffeeOrder": "Iced latte with oat milk",
         "frequencySubjectDrinks": "Once a day",
         "image": "Subject23.png",
-        "lengthOfTimeSubjectHasBeenDrinkingCoffee": "6 years"
+        "lengthOfTimeSubjectHasBeenDrinkingCoffee": "6 years",
+        "url": "popup23.html"
     },
     {
         "id": "Subject 24",
         "coffeeOrder": "Iced mocha with 2% milk",
         "frequencySubjectDrinks": "3 times a week",
         "image": "Subject24.png",
-        "lengthOfTimeSubjectHasBeenDrinkingCoffee": "1.5 years"
+        "lengthOfTimeSubjectHasBeenDrinkingCoffee": "1.5 years",
+        "url": "popup24.html"
     },
     {
         "id": "Subject 25",
         "coffeeOrder": "Iced caramel latte with regular milk",
         "frequencySubjectDrinks": "Every other day",
         "image": "Subject25.png",
-        "lengthOfTimeSubjectHasBeenDrinkingCoffee": "4 years"
+        "lengthOfTimeSubjectHasBeenDrinkingCoffee": "4 years",
+        "url": "popup25.html"
     },
     {
         "id": "Subject 26",
         "coffeeOrder": "Iced caramel latte with almondmilk",
         "frequencySubjectDrinks": "3 times a week",
         "image": "Subject26.png",
-        "lengthOfTimeSubjectHasBeenDrinkingCoffee": "5.5 years"
+        "lengthOfTimeSubjectHasBeenDrinkingCoffee": "5.5 years",
+        "url": "popup26.html"
     },
     {
         "id": "Subject 27",
         "coffeeOrder": "Iced hazelnut latte with almondmilk",
         "frequencySubjectDrinks": "Every other day",
         "image": "Subject27.png",
-        "lengthOfTimeSubjectHasBeenDrinkingCoffee": "5 years"
+        "lengthOfTimeSubjectHasBeenDrinkingCoffee": "5 years",
+        "url": "popup27.html"
     },
     {
         "id": "Subject 28",
         "coffeeOrder": "Iced vanilla latte with 2% milk",
         "frequencySubjectDrinks": "Once a day",
         "image": "Subject28.png",
-        "lengthOfTimeSubjectHasBeenDrinkingCoffee": "4 years"
+        "lengthOfTimeSubjectHasBeenDrinkingCoffee": "4 years",
+        "url": "popup28.html"
     },
     {
         "id": "Subject 29",
-        "coffeeOrder": "Iced vanilla latte with oatmlik",
+        "coffeeOrder": "Iced vanilla latte with oatmilk",
         "frequencySubjectDrinks": "Once a week",
         "image": "Subject29.png",
-        "lengthOfTimeSubjectHasBeenDrinkingCoffee": "8 years"
+        "lengthOfTimeSubjectHasBeenDrinkingCoffee": "8 years",
+        "url": "popup29.html"
     },
     {
         "id": "Subject 30",
         "coffeeOrder": "Iced latte with oatmilk",
         "frequencySubjectDrinks": "Once a day",
         "image": "Subject30.png",
-        "lengthOfTimeSubjectHasBeenDrinkingCoffee": "6 years"
+        "lengthOfTimeSubjectHasBeenDrinkingCoffee": "6 years",
+        "url": "popup30.html"
     },
     {
         "id": "Subject 31",
         "coffeeOrder": "Iced latte or dirty chai with coconut milk",
         "frequencySubjectDrinks": "5-8 times a week",
         "image": "Subject31.png",
-        "lengthOfTimeSubjectHasBeenDrinkingCoffee": "8 years"
+        "lengthOfTimeSubjectHasBeenDrinkingCoffee": "8 years",
+        "url": "popup31.html"
     },
     {
         "id": "Subject 32",
         "coffeeOrder": "Iced latte with whole milk",
         "frequencySubjectDrinks": "2-3 times a week",
         "image": "Subject32.png",
-        "lengthOfTimeSubjectHasBeenDrinkingCoffee": "3.5 years"
+        "lengthOfTimeSubjectHasBeenDrinkingCoffee": "3.5 years",
+        "url": "popup32.html"
     },
     {
         "id": "Subject 33",
         "coffeeOrder": "Iced vanilla or hazelnut latte with skim milk",
         "frequencySubjectDrinks": "Once a day",
         "image": "Subject33.png",
-        "lengthOfTimeSubjectHasBeenDrinkingCoffee": "5.5 years"
+        "lengthOfTimeSubjectHasBeenDrinkingCoffee": "5.5 years",
+        "url": "popup33.html"
     },
     {
         "id": "Subject 34",
-        "coffeeOrder": "Iced caramel coffee with oatmilk ",
+        "coffeeOrder": "Iced caramel coffee with oatmilk",
         "frequencySubjectDrinks": "Once a day",
         "image": "Subject34.png",
-        "lengthOfTimeSubjectHasBeenDrinkingCoffee": "8 years"
+        "lengthOfTimeSubjectHasBeenDrinkingCoffee": "8 years",
+        "url": "popup34.html"
     },
     {
         "id": "Subject 35",
         "coffeeOrder": "Iced latte with hazelnut or vanilla with regular milk",
         "frequencySubjectDrinks": "1-2 times a week",
         "image": "Subject35.png",
-        "lengthOfTimeSubjectHasBeenDrinkingCoffee": "5 years"
+        "lengthOfTimeSubjectHasBeenDrinkingCoffee": "5 years",
+        "url": "popup35.html"
     },
     {
         "id": "Subject 36",
         "coffeeOrder": "Iced latte with almondmilk",
         "frequencySubjectDrinks": "Once a day",
         "image": "Subject36.png",
-        "lengthOfTimeSubjectHasBeenDrinkingCoffee": "4 years"
+        "lengthOfTimeSubjectHasBeenDrinkingCoffee": "4 years",
+        "url": "popup36.html"
     },
     {
         "id": "Subject 37",
         "coffeeOrder": "Iced toasted vanilla espresso with oatmilk",
         "frequencySubjectDrinks": "3-4 times a week",
         "image": "Subject37.png",
-        "lengthOfTimeSubjectHasBeenDrinkingCoffee": "4 years"
+        "lengthOfTimeSubjectHasBeenDrinkingCoffee": "4 years",
+        "url": "popup37.html"
     },
     {
         "id": "Subject 38",
         "coffeeOrder": "Iced latte with oatmilk",
         "frequencySubjectDrinks": "Once a day",
         "image": "Subject38.png",
-        "lengthOfTimeSubjectHasBeenDrinkingCoffee": "5 years"
+        "lengthOfTimeSubjectHasBeenDrinkingCoffee": "5 years",
+        "url": "popup38.html"
     }
 ]

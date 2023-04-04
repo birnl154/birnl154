@@ -4,6 +4,8 @@
  .then(data => {
      // Access the div element
      const images = document.getElementById('images');
+
+     data.sort(() => Math.random() - 0.5);
              
      // Loop through the data and add each item to the div
      data.forEach(item => {
@@ -16,13 +18,9 @@
      img.src = "coffee cups/" + item.image;
     
 
-     /* 
-      * Onclick function
-      * whenever a image is clicked
-      * associated audio will be played
-      */
+    
      img.onclick = function() {
-         audio.play();
+        window.open(item.url, "Popup", '_blank', 'width=100,height=100');
      }
      
      // Add the HTML tags to webpage

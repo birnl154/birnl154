@@ -26,8 +26,7 @@ h2 {
 h3 {
     font-family: "franklin-gothic-urw", sans-serif;
 font-weight: 300;
-font-style: normal;
-}
+font-style: normal;}
 
 p {
     font-family: "franklin-gothic-urw", sans-serif;
@@ -43,24 +42,21 @@ font-style: normal;}
 }
 
 .flex-container {
-    height: 100vh;
-    display: list-item;
-  align-items: center;
-  justify-content: center;
-  flex-direction:column;
-  flex-wrap: wrap;
-  width: 100vw;
-  flex-grow: 1;
+    display: flex;
+flex-wrap: wrap;
+justify-content: center;
+height: 0vw;
 }
 
 img {
-    width: 400px;
-    height: 400px;
+    width: 420px
 }
 
-body {
-    height: 9200px;
-  background-color: #d5c5bc;/* For browsers that do not support gradients */
-  background-image: linear-gradient(white, #d5c5bc,  #603813);
 
+
+body {
+    height: 3500px;
+    display: flex;
+  background-color: #d5c5bc;
+  background-image: linear-gradient(white, #d5c5bc,  #603813);
 }

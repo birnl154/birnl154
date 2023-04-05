@@ -2,7 +2,8 @@
 h3 {
     font-family: "franklin-gothic-urw", sans-serif;
 font-weight: 300;
-font-style: normal;}
+font-style: normal;
+color: #d5c5bc;}
 
 @font-face {
     font-family: 'Rigatoni';
@@ -30,10 +31,6 @@ h2 {
     text-decoration: none;
 }
 
-h3 {
-    font-family: Arial, Helvetica, sans-serif;
-    color: white;
-}
 /* h2:hover {
     opacity: 70%;
     font-family: 'Rigatoni';
@@ -49,22 +46,183 @@ h3 {
 }
 
 .flex-container {
-    height: 100vh;
     display: flex;
-  align-items: center;
-  justify-content: center;
+flex-wrap: wrap;
+justify-content: center;
+height: 0vw;
 }
 
-
-
 img {
-    width: 300px;
-    height: 300px;
+    width: 420px;
+    margin: 10px;
 }
 
 body {
-    height: 7000px;
-  background-color: #d5c5bc;/* For browsers that do not support gradients */
+    height: 3000px;
+    display: flex;
+  background-color: white;/* For browsers that do not support gradients */
   background-image: linear-gradient(white, #d5c5bc,  #603813);
 
 }
+
+.popup {
+    display: none;
+    position: absolute;
+    top: calc(50% + 0px);
+    width: 200px;
+    font-size: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border: 10px solid  #d5c5bc;
+    
+  }
+
+  .popup:hover {
+  opacity: 0%;
+    
+  }
+
+  .popup2:hover {
+    opacity: 0%;
+      
+    }
+  .popup2 {
+    display: none;
+    position: absolute;
+    top: calc(50% + 500px);
+    right: calc(0% + 10px);
+    width: 200px;
+    font-size: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border: 10px solid  #d5c5bc;
+    
+  }
+  
+  
+@media (min-width: 1281px) {
+  
+    img {
+        width: 460px;
+        margin: 10px;
+    }
+    
+    body {
+        height: 4800px;
+        display: flex;
+      background-color: white;/* For browsers that do not support gradients */
+      background-image: linear-gradient(white, #d5c5bc,  #603813);
+    
+    }
+    
+  }
+  
+  /* 
+    ##Device = Laptops, Desktops
+    ##Screen = B/w 1025px to 1280px
+  */
+  
+  @media (min-width: 1025px) and (max-width: 1280px) {
+    
+    img {
+        width: 420px;
+        margin: 10px;
+    }
+    
+    body {
+        height: 4200px;
+        display: flex;
+      background-color: white;/* For browsers that do not support gradients */
+      background-image: linear-gradient(white, #d5c5bc,  #603813);
+    
+    }
+    
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (portrait)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) {
+    
+    img {
+        width: 420px;
+        margin: 10px;
+    }
+    
+    body {
+        height: 3000px;
+        display: flex;
+      background-color: white;/* For browsers that do not support gradients */
+      background-image: linear-gradient(white, #d5c5bc,  #603813);
+    
+    }
+    
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (landscape)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    
+    img {
+        width: 330px;
+        margin: 10px;
+    }
+    
+    body {
+        height: 3300px;
+        display: flex;
+      background-color: white;/* For browsers that do not support gradients */
+      background-image: linear-gradient(white, #d5c5bc,  #603813);
+    
+    }
+    
+  }
+  
+  /* 
+    ##Device = Low Resolution Tablets, Mobiles (Landscape)
+    ##Screen = B/w 481px to 767px
+  */
+  
+  @media (min-width: 481px) and (max-width: 767px) {
+    
+    img {
+        width: 280px;
+        margin: 10px;
+    }
+    
+    body {
+        height: 2900px;
+        display: flex;
+      background-color: white;/* For browsers that do not support gradients */
+      background-image: linear-gradient(white, #d5c5bc,  #603813);
+    
+    }
+    
+  }
+  
+  /* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+  
+  @media (min-width: 320px) and (max-width: 480px) {
+    
+    img {
+        width: 260px;
+        margin: 10px;
+    }
+    
+    body {
+        height: 5500px;
+        display: flex;
+      background-color: white;/* For browsers that do not support gradients */
+      background-image: linear-gradient(white, #d5c5bc,  #603813);
+    
+    }
+    
+  }

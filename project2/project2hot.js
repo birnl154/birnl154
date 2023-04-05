@@ -14,7 +14,7 @@
      const img = document.createElement('img');
 
      // Set the text content and href attributes for the link
-     p.textContent = item.id + ' ';
+
      img.src = "coffee cups/" + item.image;
     
 
@@ -30,5 +30,37 @@
      });
  })
 
- .catch(error => console.error(error));
+ window.addEventListener('scroll', function() {
+    var popup = document.querySelector('.popup');
+    var distanceFromTop = window.pageYOffset || document.documentElement.scrollTop;
+  
+    if (distanceFromTop > 200) {
+        setTimeout(function() {
+            popup.style.display = 'block';
+        }, 2000); // delay the appearance of the popup for 1 second
+    } else {
+        popup.style.display = 'none';
+    }
+});
+
+
+    
+    const popup = document.querySelector('.popup2');
+    const triggerDistance = 500;
+    
+    window.addEventListener('scroll', function() {
+        var popup = document.querySelector('.popup2');
+        var distanceFromTop = window.pageYOffset || document.documentElement.scrollTop;
+      
+        if (distanceFromTop > triggerDistance) {
+            setTimeout(function() {
+                popup.style.display = 'block';
+            }, 2000); // delay the appearance of the popup for 1 second
+        } else {
+            popup.style.display = 'none';
+        }
+    });
+    
+    
+ trycatch(error => console.error(error));
 

@@ -13,7 +13,6 @@
      const img = document.createElement('img');
 
      // Set the text content and href attributes for the link
-     p.textContent = item.id + ' ';
      img.src = "coffee cups/" + item.image;
 
 

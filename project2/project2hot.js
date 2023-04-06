@@ -34,10 +34,10 @@
     var popup = document.querySelector('.popup');
     var distanceFromTop = window.pageYOffset || document.documentElement.scrollTop;
   
-    if (distanceFromTop > 200) {
-        setTimeout(function() {
+    if (distanceFromTop > 2000) {
+     {
             popup.style.display = 'block';
-        }, 2000); // delay the appearance of the popup for 1 second
+        }
     } else {
         popup.style.display = 'none';
     }
@@ -45,17 +45,14 @@
 
 
     
-    const popup = document.querySelector('.popup2');
-    const triggerDistance = 500;
-    
     window.addEventListener('scroll', function() {
         var popup = document.querySelector('.popup2');
         var distanceFromTop = window.pageYOffset || document.documentElement.scrollTop;
       
-        if (distanceFromTop > triggerDistance) {
-            setTimeout(function() {
+        if (distanceFromTop > 500) {
+         {
                 popup.style.display = 'block';
-            }, 2000); // delay the appearance of the popup for 1 second
+            }
         } else {
             popup.style.display = 'none';
         }

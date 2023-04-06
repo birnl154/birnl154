@@ -31,12 +31,7 @@ body {
     position: relative;
 
 }
-h1{
-    font-family: 'Rigatoni';
-    color:rgb(106, 63, 44);
-    font-size: 200px;
-    display: flex;
-}
+
 
 h2 {
     font-family: 'Rigatoni';
@@ -88,9 +83,92 @@ img {
   /* Apply the animation after 6 seconds */
   img {
     animation-name: fade-in;
-    animation-duration: 7s;
-    animation-delay: 6s;
+    animation-duration: 3s;
+    animation-delay: 3s;
     animation-fill-mode: forwards;
     animation-iteration-count: 1;
   }
   
+  @media (min-width: 1281px) {
+  
+    img {
+        width: 600px;
+        margin: 10px;
+    }
+
+    h1{
+        font-family: 'Rigatoni';
+        color:rgb(106, 63, 44);
+        font-size: 180px;
+        display: flex;
+    }
+  }
+  
+
+  
+  @media (min-width: 1025px) and (max-width: 1280px) {
+    
+    img {
+        width: 600px;
+        margin: 10px;
+    }
+
+    h1{
+        font-family: 'Rigatoni';
+        color:rgb(106, 63, 44);
+        font-size: 180px;
+        display: flex;
+    }
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (portrait)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  
+  @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    
+    img {
+        width: 600px;
+        margin: 10px;
+    }
+
+    h1{
+        font-family: 'Rigatoni';
+        color:rgb(106, 63, 44);
+        font-size: 120px;
+        display: flex;
+    }
+  }
+  
+
+  
+  @media (min-width: 481px) and (max-width: 767px) {
+    
+    img {
+        width: 300px;
+        margin: 10px;
+    }
+
+    h1{
+        font-family: 'Rigatoni';
+        color:rgb(106, 63, 44);
+        font-size: 90px;
+        display: flex;
+    }
+  }
+  @media (min-width: 0) and (max-width: 480px) {
+    
+    img {
+        width: 300px;
+        margin: 10px;
+    }
+
+    h1{
+        font-family: 'Rigatoni';
+        color:rgb(106, 63, 44);
+        font-size: 60px;
+        display: flex;
+    }
+}

@@ -26,5 +26,36 @@
      images.appendChild(div);
      });
  })
- .catch(error => console.error(error));
 
+
+ window.addEventListener('scroll', function() {
+    var popup = document.querySelector('.popupthree');
+    var distanceFromTop = window.pageYOffset || document.documentElement.scrollTop;
+  
+    if (distanceFromTop > 2000) {
+     {
+            popup.style.display = 'block';
+        }
+    } else {
+        popup.style.display = 'none';
+    }
+});
+
+
+    
+    window.addEventListener('scroll', function() {
+        var popup = document.querySelector('.popupfour');
+        var distanceFromTop = window.pageYOffset || document.documentElement.scrollTop;
+      
+        if (distanceFromTop > 500) {
+         {
+                popup.style.display = 'block';
+            }
+        } else {
+            popup.style.display = 'none';
+        }
+    });
+    
+    
+
+    trycatch(error => console.error(error));

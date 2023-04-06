@@ -10,14 +10,14 @@
 
 h1{
     font-family: 'Rigatoni';
-    color:white;
+    color: #d5c5bc;
     font-size: 50px;
 }
 
 h2 {
     font-family: 'Rigatoni';
     font-size: 20px;
-    color:white;
+    color:  #603813;
     text-decoration: none;
 }
 
@@ -26,6 +26,7 @@ h2 {
 h3 {
     font-family: "franklin-gothic-urw", sans-serif;
 font-weight: 300;
+color:  #d5c5bc;
 font-style: normal;}
 
 p {
@@ -55,8 +56,210 @@ img {
 
 
 body {
-    height: 3500px;
-    display: flex;
-  background-color: #d5c5bc;
-  background-image: linear-gradient(white, #d5c5bc,  #603813);
+  height: 4500px;
+  display: flex;
+background-color: white;
+background-image: linear-gradient(white, #d5c5bc,  #603813);
+}
+
+
+div.popupthree {
+  display: none;
+  position: absolute;
+  top: calc(50% + 2000px);
+  width: 200px;
+  left: calc(0% + 10px);
+  font-size: 20px;
+  color: #d5c5bc;
+  padding: 20px;
+  background-color: #fff;
+  border: 10px solid  #d5c5bc;
+  
+  }
+
+  .popupthree:hover {
+  opacity: 0%;
+    
+  }
+
+  .popupfour:hover {
+    opacity: 0%;
+      
+    }
+  div.popupfour {
+    display: none;
+    position: absolute;
+    top: calc(50% + 500px);
+    right: calc(0% + 10px);
+    color: #d5c5bc;
+    width: 200px;
+    font-size: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border: 10px solid  #d5c5bc;
+    
+  }
+  
+
+@media (min-width: 1281px) {
+  
+    .smallscreeninfo {
+      display:none;
+     }
+    
+  }
+  
+  /* 
+    ##Device = Laptops, Desktops
+    ##Screen = B/w 1025px to 1280px
+  */
+  
+  @media (min-width: 1025px) and (max-width: 1280px) {
+    
+    img {
+        width: 420px;
+        margin: 10px;
+    }
+    
+    body {
+        height: 5400px;
+        display: flex;
+      background-color: white;/* For browsers that do not support gradients */
+      background-image: linear-gradient(white, #d5c5bc,  #603813);
+    
+    }
+    .smallscreeninfo {
+       display:none;
+     }
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (portrait)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) {
+    
+    img {
+        width: 420px;
+        margin: 10px;
+    }
+    
+    body {
+        height: 5000px;
+        display: flex;
+      background-color: white;/* For browsers that do not support gradients */
+      background-image: linear-gradient(white, #d5c5bc,  #603813);
+    
+    }
+    .smallscreeninfo {
+      display:none;
+     }
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (landscape)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    
+    img {
+        width: 370px;
+        margin: 10px;
+    }
+    
+    body {
+        height: 5200px;
+        display: flex;
+      background-color: white;/* For browsers that do not support gradients */
+      background-image: linear-gradient(white, #d5c5bc,  #603813);
+    
+    }
+    .smallscreeninfo {
+      display:none;
+     }
+  }
+  
+  /* 
+    ##Device = Low Resolution Tablets, Mobiles (Landscape)
+    ##Screen = B/w 481px to 767px
+  */
+  
+  @media (min-width: 481px) and (max-width: 767px) {
+    
+    img {
+        width: 310px;
+        margin: 10px;
+    }
+    
+    body {
+        height: 7400px;
+        display: flex;
+      background-color: white;/* For browsers that do not support gradients */
+      background-image: linear-gradient(white, #d5c5bc,  #603813);
+    
+    }
+    
+  h2{
+    color:white;
+  }
+  .smallscreeninfo {
+    position: fixed;
+    bottom: 0;
+    color: white;
+    left: 0;
+    font-size:12px;
+    padding:10px;
+    right: 0;
+}
+  .popup3 {
+    opacity:0;
+     
+   }
+  .popup4 {
+    opacity:0;
+     
+   }
+  }
+  /* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+  
+  @media (min-width: 320px) and (max-width: 480px) {
+    
+    img {
+        width: 300px;
+        margin: 10px;
+    }
+    
+    body {
+        height: 7000px;
+        display: flex;
+      background-color: white;/* For browsers that do not support gradients */
+      background-image: linear-gradient(white, #d5c5bc,  #603813);
+    
+    }
+    
+
+  .popup3 {
+    opacity:0;
+     
+   }
+  .popup4 {
+    opacity:0;
+   }
+   h2{
+    color:white;
+  }
+  .smallscreeninfo {
+    position: fixed;
+    bottom: 0;
+    color: white;
+    left: 0;
+    font-size:12px;
+    padding:10px;
+    right: 0;
+}
 }

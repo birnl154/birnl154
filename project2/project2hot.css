@@ -68,9 +68,11 @@ body {
 .popup {
     display: none;
     position: absolute;
-    top: calc(50% + 0px);
+    top: calc(50% + 2000px);
     width: 200px;
+    left: calc(0% + 10px);
     font-size: 20px;
+    color: #d5c5bc;
     padding: 20px;
     background-color: #fff;
     border: 10px solid  #d5c5bc;
@@ -91,6 +93,7 @@ body {
     position: absolute;
     top: calc(50% + 500px);
     right: calc(0% + 10px);
+    color: #d5c5bc;
     width: 200px;
     font-size: 20px;
     padding: 20px;
@@ -114,7 +117,9 @@ body {
       background-image: linear-gradient(white, #d5c5bc,  #603813);
     
     }
-    
+    .smallscreeninfo {
+        opacity: 0;
+     }
   }
   
   /* 
@@ -130,13 +135,15 @@ body {
     }
     
     body {
-        height: 4200px;
+        height: 8300px;
         display: flex;
       background-color: white;/* For browsers that do not support gradients */
       background-image: linear-gradient(white, #d5c5bc,  #603813);
     
     }
-    
+    .smallscreeninfo {
+        opacity: 0;
+     }
   }
   
   /* 
@@ -152,12 +159,15 @@ body {
     }
     
     body {
-        height: 3000px;
+        height: 8300px;
         display: flex;
       background-color: white;/* For browsers that do not support gradients */
       background-image: linear-gradient(white, #d5c5bc,  #603813);
     
     }
+    .smallscreeninfo {
+        opacity: 0;
+     }
     
   }
   
@@ -174,13 +184,15 @@ body {
     }
     
     body {
-        height: 3300px;
+        height: 8300px;
         display: flex;
       background-color: white;/* For browsers that do not support gradients */
       background-image: linear-gradient(white, #d5c5bc,  #603813);
     
     }
-    
+    .smallscreeninfo {
+       opacity: 0;
+    }
   }
   
   /* 
@@ -196,14 +208,35 @@ body {
     }
     
     body {
-        height: 2900px;
+        height: 5900px;
         display: flex;
       background-color: white;/* For browsers that do not support gradients */
       background-image: linear-gradient(white, #d5c5bc,  #603813);
     
     }
-    
-  }
+    h2{
+        color:white;
+      }
+
+      h3{
+        color: white;
+      }
+      .smallscreeninfo {
+        position: fixed;
+        bottom: 0;
+        color: white;
+        left: 0;
+        font-size:12px;
+        padding:10px;
+        right: 0;
+    }
+  .popup {
+    opacity:0;
+     
+   }
+  .popup2 {
+    opacity:0;
+   }}
   
   /* 
     ##Device = Most of the Smartphones Mobiles (Portrait)
@@ -224,5 +257,27 @@ body {
       background-image: linear-gradient(white, #d5c5bc,  #603813);
     
     }
-    
+    h2{
+        color:white;
+      }
+
+      h3{
+        color: white;
+      }
+      .smallscreeninfo {
+        position: fixed;
+        bottom: 0;
+        color: white;
+        left: 0;
+        font-size:12px;
+        padding:10px;
+        right: 0;
+    }
+    .popup {
+        opacity:0;
+         
+       }
+      .popup2 {
+        opacity:0;
+       }
   }

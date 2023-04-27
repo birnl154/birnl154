@@ -1,6 +1,6 @@
 img {
-    height:300px;
-    padding: 10px;
+    height:500px;
+    padding: 30px;
 
 }
 a {
@@ -8,7 +8,11 @@ color:white;
  font-family: 'Rubik', sans-serif;
  
 }
-
+.email {
+    padding: 20px;
+    text-align:center;
+    margin-top: 350px;
+}
 .graphicdesign {
     margin-top:300px;
     text-align:center;
@@ -22,6 +26,7 @@ color:white;
 h1 {
     font-family: 'Rubik', sans-serif;
     color: white;
+    font-size: 50px;
 }
 body {
     background-color: rgb(36, 36, 36);
@@ -59,11 +64,12 @@ nav ul li a:hover {
 .name {
     text-align:center;
     margin-top: 350px;
+    font-size: 50px;
 
 }
 
 .about {
-    font-size: 12px;
+    font-size: 32px;
     margin: 20px;
     padding: 140px;
 }

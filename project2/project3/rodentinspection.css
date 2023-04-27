@@ -1,0 +1,40 @@
+body {
+    background-color:black;
+}
+
+h1 {
+    font-family: 'Sedgwick Ave Display', cursive;
+}
+
+.header {
+    position:center;
+    font-size: 60px;
+    text-align: center;
+    margin-top: 250px;
+    color:rgb(255, 0, 0);
+}
+
+.header:hover {
+    color:lime;
+}
+.staten {
+    position: absolute;
+width: 178px;
+height: 72px;
+left: 936px;
+top: 71px;
+font-family: 'Sedgwick Ave Display';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 40px;
+color: #FF0000;
+}
+a:hover {
+    color:limegreen;
+}
+
+a {
+    text-align: center;
+    color: red;
+}

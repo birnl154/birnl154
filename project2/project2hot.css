@@ -18,6 +18,11 @@ h1{
     color: rgb(106, 63, 44);
     font-size: 50px;
 }
+
+a {
+  text-decoration: none;
+}
+
 p {
     font-family: "franklin-gothic-urw", sans-serif;
     color: white;

@@ -6,6 +6,7 @@ img {
 a {
 color:white;
  font-family: 'Rubik', sans-serif;
+ font-size: 40px;
  
 }
 .email {
@@ -26,7 +27,7 @@ color:white;
 h1 {
     font-family: 'Rubik', sans-serif;
     color: white;
-    font-size: 50px;
+    font-size: 70px;
 }
 body {
     background-color: rgb(36, 36, 36);
@@ -69,7 +70,7 @@ nav ul li a:hover {
 }
 
 .about {
-    font-size: 32px;
+    font-size: 42px;
     margin: 20px;
     padding: 140px;
 }

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head class=“cursor”>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lydia</title>
+    <link rel="stylesheet" type="text/css" href="rodent.css">
+    <script src="rodent.json"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.min.js"></script>
+
+    <script src="rodent.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sedgwick+Ave+Display&display=swap" rel="stylesheet">
+</head>
+
+
+<body>
+    <canvas></canvas>
+    <div class="header">
+        <h1>the rats run this city</h1>
+        <p> 🐀🐀🐀</p>
+        <br>
+    </div>
+    <a href="page1.html"><h1> explore the borough data</h1></a>
+
+    <form>
+        <label for="filter">Filter by:</label>
+        <select id="filter">
+          <option value="">Select a filter</option>
+          <option value="time">time</option>
+          <option value="geotype">geotype</option>
+          <option value="geoid">GeoID</option>
+          <option value="geography">geography</option>
+          <option value="number">number</option>
+          <option value="percent">percent</option>
+        </select>
+      </form>
+      
+      <div id="results"></div>
+      
+</body>

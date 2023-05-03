@@ -1,0 +1,1466 @@
+[
+    {
+        "time": 2017,
+        "geotype": "Sub-borough",
+        "geoid": 1,
+        "geography": "Mott Haven/Hunts Point",
+        "number": 19000,
+        "percent": "39.4 (32.7, 46.1)"
+    },
+    {
+        "time": 2017,
+        "geotype": "Sub-borough",
+        "geoid": 2,
+        "geography": "Morrisania/East Tremont",
+        "number": 19000,
+        "percent": "39.7 (31, 48.5)"
+    },
+    {
+        "time": 2017,
+        "geotype": "Sub-borough",
+        "geoid": 3,
+        "geography": "Highbridge/South Concourse",
+        "number": 18000,
+        "percent": "42.7 (35.1, 50.2)"
+    },
+    {
+        "time": 2017,
+        "geotype": "Sub-borough",
+        "geoid": 4,
+        "geography": "University Heights/Fordham",
+        "number": 19000,
+        "percent": "45.7 (38.1, 53.3)"
+    },
+    {
+        "time": 2017,
+        "geotype": "Sub-borough",
+        "geoid": 5,
+        "geography": "Kingsbridge Heights/Mosholu",
+        "number": 16000,
+        "percent": "33.3 (24.8, 41.8)"
+    },
+    {
+        "time": 2017,
+        "geotype": "Sub-borough",
+        "geoid": 6,
+        "geography": "Riverdale/Kingsbridge",
+        "number": 9000,
+        "percent": "23.4 (16, 30.7)"
+    },
+    {
+        "time": 2017,
+        "geotype": "Sub-borough",
+        "geoid": 7,
+        "geography": "Soundview/Parkchester",
+        "number": 16000,
+        "percent": "26.6 (20.6, 32.7)"
+    },
+    {
+        "time": 2017,
+        "geotype": "Sub-borough",
+        "geoid": 8,
+        "geography": "Throgs Neck/Co-op City",
+        "number": 5000,
+        "percent": "10.0 (5, 15)"
+    },
+    {
+        "time": 2017,
+        "geotype": "Sub-borough",
+        "geoid": 9,
+        "geography": "Pelham Parkway",
+        "number": 9000,
+        "percent": "21.5 (12.9, 30)"
+    },
+    {
+        "time": 2017,
+        "geotype": "Sub-borough",
+        "geoid": 10,
+        "geography": "Williamsbridge/Baychester",
+        "number": 16000,
+        "percent": "37.8 (28.6, 46.9)"
+    },
+    {
+        "time": 2017,
+        "geotype": "Sub-borough",
+        "geoid": 11,
+        "geography": "Williamsburg/Greenpoint",
+        "number": 8000,
+        "percent": "14.9 (10.2, 19.7)"
+    },
+    {
+        "time": 2017,
+        "geotype": "Sub-borough",
+        "geoid": 12,
+        "geography": "Brooklyn Heights/Fort Greene",
+        "number": 7000,
+        "percent": "13.1 (8.1, 18.2)"
+    },
+    {
+        "time": 2017,
+        "geotype": "Sub-borough",
+        "geoid": 13,
+        "geography": "Bedford Stuyvesant",
+        "number": 18000,
+        "percent": "38.0 (29.4, 46.5)"
+    },
+    {
+        "time": 2017,
+        "geotype": "Sub-borough",
+        "geoid": 14,
+        "geography": "Bushwick",
+        "number": 12000,
+        "percent": "30.8 (21.2, 40.4)"
+    },
+    {
+        "time": 2017,
+        "geotype": "Sub-borough",
+        "geoid": 15,
+        "geography": "East New York/Starret City",
+        "number": 12000,
+        "percent": "22.2 (15.5, 28.8)"
+    },
+    {
+        "time": 2017,
+        "geotype": "Sub-borough",
+        "geoid": 16,
+        "geography": "Park Slope/Carroll Gardens",
+        "number": 7000,
+        "percent": "16.6 (10.6, 22.5)"
+    },
+    {
+        "time": 2017,
+        "geotype": "Sub-borough",
+        "geoid": 17,
+        "geography": "Sunset Park",
+        "number": 5000,
+        "percent": "13.8 (7.7, 19.9)"
+    },
+    {
+        "time": 2017,
+        "geotype": "Sub-borough",
+        "geoid": 18,
+        "geography": "N. Crown Heights/Prospect Heights",
+        "number": 13000,
+        "percent": "29.4 (20.3, 38.5)"
+    },
+    {
+        "time": 2017,
+        "geotype": "Sub-borough",
+        "geoid": 19,
+        "geography": "South Crown Heights",
+        "number": 14000,
+        "percent": "35.9 (25.9, 45.9)"
+    },
+    {
+        "time": 2017,
+        "geotype": "Sub-borough",
+        "geoid": 20,
+        "geography": "Bay Ridge",
+        "number": 4000,
+        "percent": "9.8 (5.9, 13.6)"
+    },
+    {
+        "time": 2017,
+        "geotype": "Sub-borough",
+        "geoid": 21,
+        "geography": "Bensonhurst",
+        "number": 5000,
+        "percent": "7.4 (4.2, 10.5)"
+    },
+    {
+        "time": 2017,
+        "geotype": "Sub-borough",
+        "geoid": 22,
+        "geography": "Borough Park",
+        "number": 7000,
+        "percent": "16.1 (10, 22.2)"
+    },
+    {
+        "time": 2017,
+        "geotype": "Sub-borough",
+        "geoid": 23,
+        "geography": "Coney Island",
+        "number": 4000,
+        "percent": "9.5 (5.4, 13.7)"
+    },
+    {
+        "time": 2017,
+        "geotype": "Sub-borough",
+        "geoid": 24,
+        "geography": "Flatbush",
+        "number": 9000,
+        "percent": "16.9 (11.4, 22.5)"
+    },
+    {
+        "time": 2017,
+        "geotype": "Sub-borough",
+        "geoid": 25,
+        "geography": "Sheepshead Bay/Gravesend",
+        "number": 4000,
+        "percent": "6.8 (2.9, 10.7)"
+    },
+    {
+        "time": 2017,
+        "geotype": "Sub-borough",
+        "geoid": 26,
+        "geography": "Brownsville/Ocean Hill",
+        "number": 16000,
+        "percent": "40.5 (32.7, 48.4)"
+    },
+    {
+        "time": 2017,
+        "geotype": "Sub-borough",
+        "geoid": 27,
+        "geography": "East Flatbush",
+        "number": 14000,
+        "percent": "33.5 (25.5, 41.5)"
+    },
+    {
+        "time": 2017,
+        "geotype": "Sub-borough",
+        "geoid": 28,
+        "geography": "Flatlands/Canarsie",
+        "number": 15000,
+        "percent": "22.8 (17, 28.7)"
+    },
+    {
+        "time": 2017,
+        "geotype": "Sub-borough",
+        "geoid": 29,
+        "geography": "Greenwich Village/Financial District",
+        "number": 8000,
+        "percent": "10.3 (6, 14.6)"
+    },
+    {
+        "time": 2017,
+        "geotype": "Sub-borough",
+        "geoid": 30,
+        "geography": "Lower East Side/Chinatown",
+        "number": 18000,
+        "percent": "25.7 (19.9, 31.4)"
+    },
+    {
+        "time": 2017,
+        "geotype": "Sub-borough",
+        "geoid": 31,
+        "geography": "Chelsea/Clinton/Midtown",
+        "number": 8000,
+        "percent": "11.3 (7.2, 15.4)"
+    },
+    {
+        "time": 2017,
+        "geotype": "Sub-borough",
+        "geoid": 32,
+        "geography": "Stuyvesant Town/Turtle Bay",
+        "number": 5000,
+        "percent": "7.0 (3.8, 10.1)"
+    },
+    {
+        "time": 2017,
+        "geotype": "Sub-borough",
+        "geoid": 33,
+        "geography": "Upper West Side",
+        "number": 13000,
+        "percent": "13.8 (10.2, 17.5)"
+    },
+    {
+        "time": 2017,
+        "geotype": "Sub-borough",
+        "geoid": 34,
+        "geography": "Upper East Side",
+        "number": 7000,
+        "percent": "6.6 (4.1, 9.1)"
+    },
+    {
+        "time": 2017,
+        "geotype": "Sub-borough",
+        "geoid": 35,
+        "geography": "Morningside Heights/Hamilton Heights",
+        "number": 13000,
+        "percent": "28.5 (20.9, 36.2)"
+    },
+    {
+        "time": 2017,
+        "geotype": "Sub-borough",
+        "geoid": 36,
+        "geography": "Central Harlem",
+        "number": 10000,
+        "percent": "18.4 (12.4, 24.4)"
+    },
+    {
+        "time": 2017,
+        "geotype": "Sub-borough",
+        "geoid": 37,
+        "geography": "East Harlem",
+        "number": 9000,
+        "percent": "18.3 (11.2, 25.4)"
+    },
+    {
+        "time": 2017,
+        "geotype": "Sub-borough",
+        "geoid": 38,
+        "geography": "Washington Heights/Inwood",
+        "number": 21000,
+        "percent": "29.6 (24.7, 34.4)"
+    },
+    {
+        "time": 2017,
+        "geotype": "Sub-borough",
+        "geoid": 39,
+        "geography": "Astoria",
+        "number": 6000,
+        "percent": "8.6 (5.5, 11.6)"
+    },
+    {
+        "time": 2017,
+        "geotype": "Sub-borough",
+        "geoid": 40,
+        "geography": "Sunnyside/Woodside",
+        "number": 9000,
+        "percent": "18.9 (13.1, 24.8)"
+    },
+    {
+        "time": 2017,
+        "geotype": "Sub-borough",
+        "geoid": 41,
+        "geography": "Jackson Heights",
+        "number": 13000,
+        "percent": "25.0 (19.4, 30.5)"
+    },
+    {
+        "time": 2017,
+        "geotype": "Sub-borough",
+        "geoid": 42,
+        "geography": "Elmhurst/Corona",
+        "number": 15000,
+        "percent": "29.7 (21.3, 38.1)"
+    },
+    {
+        "time": 2017,
+        "geotype": "Sub-borough",
+        "geoid": 43,
+        "geography": "Middle Village/Ridgewood",
+        "number": 7000,
+        "percent": "11.1 (7.1, 15.1)"
+    },
+    {
+        "time": 2017,
+        "geotype": "Sub-borough",
+        "geoid": 44,
+        "geography": "Forest Hills/Rego Park",
+        "number": 3000,
+        "percent": "8.2 (4.1, 12.4)"
+    },
+    {
+        "time": 2017,
+        "geotype": "Sub-borough",
+        "geoid": 45,
+        "geography": "Flushing/Whitestone",
+        "number": 7000,
+        "percent": "8.8 (5.1, 12.6)"
+    },
+    {
+        "time": 2017,
+        "geotype": "Sub-borough",
+        "geoid": 46,
+        "geography": "Hillcrest/Fresh Meadows",
+        "number": 6000,
+        "percent": "12.2 (7.3, 17.2)"
+    },
+    {
+        "time": 2017,
+        "geotype": "Sub-borough",
+        "geoid": 47,
+        "geography": "Kew Gardens/Woodhaven",
+        "number": 5000,
+        "percent": "13.9 (7.6, 20.2)"
+    },
+    {
+        "time": 2017,
+        "geotype": "Sub-borough",
+        "geoid": 48,
+        "geography": "Howard Beach/South Ozone Park",
+        "number": "3,000*",
+        "percent": "9.8* (3, 16.5)"
+    },
+    {
+        "time": 2017,
+        "geotype": "Sub-borough",
+        "geoid": 49,
+        "geography": "Bayside/Little Neck",
+        "number": "2,000*",
+        "percent": "4.3* (1, 7.5)"
+    },
+    {
+        "time": 2017,
+        "geotype": "Sub-borough",
+        "geoid": 50,
+        "geography": "Jamaica",
+        "number": 15000,
+        "percent": "23.5 (18.3, 28.8)"
+    },
+    {
+        "time": 2017,
+        "geotype": "Sub-borough",
+        "geoid": 51,
+        "geography": "Bellerose/Rosedale",
+        "number": 8000,
+        "percent": "14.4 (9.2, 19.6)"
+    },
+    {
+        "time": 2017,
+        "geotype": "Sub-borough",
+        "geoid": 52,
+        "geography": "Rockaways",
+        "number": 7000,
+        "percent": "17.4 (11.1, 23.8)"
+    },
+    {
+        "time": 2017,
+        "geotype": "Sub-borough",
+        "geoid": 53,
+        "geography": "North Shore",
+        "number": 8000,
+        "percent": "13.8 (8.4, 19.2)"
+    },
+    {
+        "time": 2017,
+        "geotype": "Sub-borough",
+        "geoid": 54,
+        "geography": "Mid Island",
+        "number": "1,000*",
+        "percent": "2.4* (0.4, 4.5)"
+    },
+    {
+        "time": 2017,
+        "geotype": "Sub-borough",
+        "geoid": 55,
+        "geography": "South Shore",
+        "number": "2,000*",
+        "percent": "2.9* (0.7, 5.1)"
+    },
+    {
+        "time": 2017,
+        "geotype": "Borough",
+        "geoid": 1,
+        "geography": "Bronx",
+        "number": 145000,
+        "percent": "31.9 (29.7, 34)"
+    },
+    {
+        "time": 2017,
+        "geotype": "Borough",
+        "geoid": 2,
+        "geography": "Brooklyn",
+        "number": 176000,
+        "percent": "20.1 (18.8, 21.4)"
+    },
+    {
+        "time": 2017,
+        "geotype": "Borough",
+        "geoid": 3,
+        "geography": "Manhattan",
+        "number": 112000,
+        "percent": "15.7 (14.2, 17.2)"
+    },
+    {
+        "time": 2017,
+        "geotype": "Borough",
+        "geoid": 4,
+        "geography": "Queens",
+        "number": 106000,
+        "percent": "14.8 (13.4, 16.2)"
+    },
+    {
+        "time": 2017,
+        "geotype": "Borough",
+        "geoid": 5,
+        "geography": "Staten Island",
+        "number": 11000,
+        "percent": "6.8 (4.6, 9)"
+    },
+    {
+        "time": 2017,
+        "geotype": "Citywide",
+        "geoid": 1,
+        "geography": "New York City",
+        "number": 551000,
+        "percent": "18.8 (18.2, 19.5)"
+    },
+    {
+        "time": 2005,
+        "geotype": "Sub-borough",
+        "geoid": 1,
+        "geography": "Mott Haven/Hunts Point",
+        "number": 11918,
+        "percent": 31.1
+    },
+    {
+        "time": 2005,
+        "geotype": "Sub-borough",
+        "geoid": 2,
+        "geography": "Morrisania/East Tremont",
+        "number": 21307,
+        "percent": 47.7
+    },
+    {
+        "time": 2005,
+        "geotype": "Sub-borough",
+        "geoid": 3,
+        "geography": "Highbridge/South Concourse",
+        "number": 19671,
+        "percent": 53.4
+    },
+    {
+        "time": 2005,
+        "geotype": "Sub-borough",
+        "geoid": 4,
+        "geography": "University Heights/Fordham",
+        "number": 25036,
+        "percent": 62.7
+    },
+    {
+        "time": 2005,
+        "geotype": "Sub-borough",
+        "geoid": 5,
+        "geography": "Kingsbridge Heights/Mosholu",
+        "number": 16437,
+        "percent": 45.4
+    },
+    {
+        "time": 2005,
+        "geotype": "Sub-borough",
+        "geoid": 6,
+        "geography": "Riverdale/Kingsbridge",
+        "number": 8457,
+        "percent": 24.8
+    },
+    {
+        "time": 2005,
+        "geotype": "Sub-borough",
+        "geoid": 7,
+        "geography": "Soundview/Parkchester",
+        "number": 15340,
+        "percent": 27.7
+    },
+    {
+        "time": 2005,
+        "geotype": "Sub-borough",
+        "geoid": 8,
+        "geography": "Throgs Neck/Co-op City",
+        "number": 3290,
+        "percent": 9.1
+    },
+    {
+        "time": 2005,
+        "geotype": "Sub-borough",
+        "geoid": 9,
+        "geography": "Pelham Parkway",
+        "number": 6335,
+        "percent": 18.9
+    },
+    {
+        "time": 2005,
+        "geotype": "Sub-borough",
+        "geoid": 10,
+        "geography": "Williamsbridge/Baychester",
+        "number": 8694,
+        "percent": 22.4
+    },
+    {
+        "time": 2005,
+        "geotype": "Sub-borough",
+        "geoid": 11,
+        "geography": "Williamsburg/Greenpoint",
+        "number": 9771,
+        "percent": 23.5
+    },
+    {
+        "time": 2005,
+        "geotype": "Sub-borough",
+        "geoid": 12,
+        "geography": "Brooklyn Heights/Fort Greene",
+        "number": 8215,
+        "percent": 23
+    },
+    {
+        "time": 2005,
+        "geotype": "Sub-borough",
+        "geoid": 13,
+        "geography": "Bedford Stuyvesant",
+        "number": 11535,
+        "percent": 31.1
+    },
+    {
+        "time": 2005,
+        "geotype": "Sub-borough",
+        "geoid": 14,
+        "geography": "Bushwick",
+        "number": 11559,
+        "percent": 34.1
+    },
+    {
+        "time": 2005,
+        "geotype": "Sub-borough",
+        "geoid": 15,
+        "geography": "East New York/Starret City",
+        "number": 11511,
+        "percent": 29.3
+    },
+    {
+        "time": 2005,
+        "geotype": "Sub-borough",
+        "geoid": 16,
+        "geography": "Park Slope/Carroll Gardens",
+        "number": 5713,
+        "percent": 16.6
+    },
+    {
+        "time": 2005,
+        "geotype": "Sub-borough",
+        "geoid": 17,
+        "geography": "Sunset Park",
+        "number": 7057,
+        "percent": 21
+    },
+    {
+        "time": 2005,
+        "geotype": "Sub-borough",
+        "geoid": 18,
+        "geography": "N. Crown Heights/Prospect Heights",
+        "number": 20189,
+        "percent": 46.1
+    },
+    {
+        "time": 2005,
+        "geotype": "Sub-borough",
+        "geoid": 19,
+        "geography": "South Crown Heights",
+        "number": 19671,
+        "percent": 54.2
+    },
+    {
+        "time": 2005,
+        "geotype": "Sub-borough",
+        "geoid": 20,
+        "geography": "Bay Ridge",
+        "number": 2946,
+        "percent": 7.6
+    },
+    {
+        "time": 2005,
+        "geotype": "Sub-borough",
+        "geoid": 21,
+        "geography": "Bensonhurst",
+        "number": 4815,
+        "percent": 9.9
+    },
+    {
+        "time": 2005,
+        "geotype": "Sub-borough",
+        "geoid": 22,
+        "geography": "Borough Park",
+        "number": 9059,
+        "percent": 24.6
+    },
+    {
+        "time": 2005,
+        "geotype": "Sub-borough",
+        "geoid": 23,
+        "geography": "Coney Island",
+        "number": 5736,
+        "percent": 15
+    },
+    {
+        "time": 2005,
+        "geotype": "Sub-borough",
+        "geoid": 24,
+        "geography": "Flatbush",
+        "number": 19305,
+        "percent": 39
+    },
+    {
+        "time": 2005,
+        "geotype": "Sub-borough",
+        "geoid": 25,
+        "geography": "Sheepshead Bay/Gravesend",
+        "number": 2387,
+        "percent": 4.9
+    },
+    {
+        "time": 2005,
+        "geotype": "Sub-borough",
+        "geoid": 26,
+        "geography": "Brownsville/Ocean Hill",
+        "number": 15597,
+        "percent": 44.9
+    },
+    {
+        "time": 2005,
+        "geotype": "Sub-borough",
+        "geoid": 27,
+        "geography": "East Flatbush",
+        "number": 14813,
+        "percent": 35
+    },
+    {
+        "time": 2005,
+        "geotype": "Sub-borough",
+        "geoid": 28,
+        "geography": "Flatlands/Canarsie",
+        "number": 7309,
+        "percent": 13.7
+    },
+    {
+        "time": 2005,
+        "geotype": "Sub-borough",
+        "geoid": 29,
+        "geography": "Greenwich Village/Financial District",
+        "number": 8843,
+        "percent": 21.1
+    },
+    {
+        "time": 2005,
+        "geotype": "Sub-borough",
+        "geoid": 30,
+        "geography": "Lower East Side/Chinatown",
+        "number": 12991,
+        "percent": 24
+    },
+    {
+        "time": 2005,
+        "geotype": "Sub-borough",
+        "geoid": 31,
+        "geography": "Chelsea/Clinton/Midtown",
+        "number": 9032,
+        "percent": 16.8
+    },
+    {
+        "time": 2005,
+        "geotype": "Sub-borough",
+        "geoid": 32,
+        "geography": "Stuyvesant Town/Turtle Bay",
+        "number": 5402,
+        "percent": 8.5
+    },
+    {
+        "time": 2005,
+        "geotype": "Sub-borough",
+        "geoid": 33,
+        "geography": "Upper West Side",
+        "number": 7857,
+        "percent": 10
+    },
+    {
+        "time": 2005,
+        "geotype": "Sub-borough",
+        "geoid": 34,
+        "geography": "Upper East Side",
+        "number": 11763,
+        "percent": 13.3
+    },
+    {
+        "time": 2005,
+        "geotype": "Sub-borough",
+        "geoid": 35,
+        "geography": "Morningside Heights/Hamilton Heights",
+        "number": 15339,
+        "percent": 37.7
+    },
+    {
+        "time": 2005,
+        "geotype": "Sub-borough",
+        "geoid": 36,
+        "geography": "Central Harlem",
+        "number": 12186,
+        "percent": 34.2
+    },
+    {
+        "time": 2005,
+        "geotype": "Sub-borough",
+        "geoid": 37,
+        "geography": "East Harlem",
+        "number": 12277,
+        "percent": 35.7
+    },
+    {
+        "time": 2005,
+        "geotype": "Sub-borough",
+        "geoid": 38,
+        "geography": "Washington Heights/Inwood",
+        "number": 28054,
+        "percent": 48.2
+    },
+    {
+        "time": 2005,
+        "geotype": "Sub-borough",
+        "geoid": 39,
+        "geography": "Astoria",
+        "number": 6596,
+        "percent": 10.5
+    },
+    {
+        "time": 2005,
+        "geotype": "Sub-borough",
+        "geoid": 40,
+        "geography": "Sunnyside/Woodside",
+        "number": 5367,
+        "percent": 13.8
+    },
+    {
+        "time": 2005,
+        "geotype": "Sub-borough",
+        "geoid": 41,
+        "geography": "Jackson Heights",
+        "number": 10587,
+        "percent": 22.2
+    },
+    {
+        "time": 2005,
+        "geotype": "Sub-borough",
+        "geoid": 42,
+        "geography": "Elmhurst/Corona",
+        "number": 8924,
+        "percent": 23
+    },
+    {
+        "time": 2005,
+        "geotype": "Sub-borough",
+        "geoid": 43,
+        "geography": "Middle Village/Ridgewood",
+        "number": 7401,
+        "percent": 13.8
+    },
+    {
+        "time": 2005,
+        "geotype": "Sub-borough",
+        "geoid": 44,
+        "geography": "Forest Hills/Rego Park",
+        "number": 2638,
+        "percent": 5.5
+    },
+    {
+        "time": 2005,
+        "geotype": "Sub-borough",
+        "geoid": 45,
+        "geography": "Flushing/Whitestone",
+        "number": 8825,
+        "percent": 11.8
+    },
+    {
+        "time": 2005,
+        "geotype": "Sub-borough",
+        "geoid": 46,
+        "geography": "Hillcrest/Fresh Meadows",
+        "number": 5429,
+        "percent": 11.4
+    },
+    {
+        "time": 2005,
+        "geotype": "Sub-borough",
+        "geoid": 47,
+        "geography": "Kew Gardens/Woodhaven",
+        "number": 6248,
+        "percent": 15.4
+    },
+    {
+        "time": 2005,
+        "geotype": "Sub-borough",
+        "geoid": 48,
+        "geography": "Howard Beach/South Ozone Park",
+        "number": 2229,
+        "percent": 6.5
+    },
+    {
+        "time": 2005,
+        "geotype": "Sub-borough",
+        "geoid": 49,
+        "geography": "Bayside/Little Neck",
+        "number": 752,
+        "percent": 2
+    },
+    {
+        "time": 2005,
+        "geotype": "Sub-borough",
+        "geoid": 50,
+        "geography": "Jamaica",
+        "number": 8836,
+        "percent": 14.7
+    },
+    {
+        "time": 2005,
+        "geotype": "Sub-borough",
+        "geoid": 51,
+        "geography": "Bellerose/Rosedale",
+        "number": 1864,
+        "percent": 3.4
+    },
+    {
+        "time": 2005,
+        "geotype": "Sub-borough",
+        "geoid": 52,
+        "geography": "Rockaways",
+        "number": 4844,
+        "percent": 14.3
+    },
+    {
+        "time": 2005,
+        "geotype": "Sub-borough",
+        "geoid": 53,
+        "geography": "North Shore",
+        "number": 5905,
+        "percent": 11.6
+    },
+    {
+        "time": 2005,
+        "geotype": "Sub-borough",
+        "geoid": 54,
+        "geography": "Mid Island",
+        "number": 1773,
+        "percent": 4.3
+    },
+    {
+        "time": 2005,
+        "geotype": "Sub-borough",
+        "geoid": 55,
+        "geography": "South Shore",
+        "number": 1279,
+        "percent": 2.4
+    },
+    {
+        "time": 2005,
+        "geotype": "Borough",
+        "geoid": 1,
+        "geography": "Bronx",
+        "number": 136484,
+        "percent": 34.6
+    },
+    {
+        "time": 2005,
+        "geotype": "Borough",
+        "geoid": 2,
+        "geography": "Brooklyn",
+        "number": 187187,
+        "percent": 25.8
+    },
+    {
+        "time": 2005,
+        "geotype": "Borough",
+        "geoid": 3,
+        "geography": "Manhattan",
+        "number": 123744,
+        "percent": 22.5
+    },
+    {
+        "time": 2005,
+        "geotype": "Borough",
+        "geoid": 4,
+        "geography": "Queens",
+        "number": 80540,
+        "percent": 11.9
+    },
+    {
+        "time": 2005,
+        "geotype": "Borough",
+        "geoid": 5,
+        "geography": "Staten Island",
+        "number": 8956,
+        "percent": 6.2
+    },
+    {
+        "time": 2005,
+        "geotype": "Citywide",
+        "geoid": 1,
+        "geography": "New York City",
+        "number": 536911,
+        "percent": 21.6
+    },
+    {
+        "time": 2002,
+        "geotype": "Sub-borough",
+        "geoid": 1,
+        "geography": "Mott Haven/Hunts Point",
+        "number": 17097,
+        "percent": 43.5
+    },
+    {
+        "time": 2002,
+        "geotype": "Sub-borough",
+        "geoid": 2,
+        "geography": "Morrisania/East Tremont",
+        "number": 19158,
+        "percent": 45.2
+    },
+    {
+        "time": 2002,
+        "geotype": "Sub-borough",
+        "geoid": 3,
+        "geography": "Highbridge/South Concourse",
+        "number": 20668,
+        "percent": 52.2
+    },
+    {
+        "time": 2002,
+        "geotype": "Sub-borough",
+        "geoid": 4,
+        "geography": "University Heights/Fordham",
+        "number": 24542,
+        "percent": 64.3
+    },
+    {
+        "time": 2002,
+        "geotype": "Sub-borough",
+        "geoid": 5,
+        "geography": "Kingsbridge Heights/Mosholu",
+        "number": 19074,
+        "percent": 51.5
+    },
+    {
+        "time": 2002,
+        "geotype": "Sub-borough",
+        "geoid": 6,
+        "geography": "Riverdale/Kingsbridge",
+        "number": 11273,
+        "percent": 27.4
+    },
+    {
+        "time": 2002,
+        "geotype": "Sub-borough",
+        "geoid": 7,
+        "geography": "Soundview/Parkchester",
+        "number": 10232,
+        "percent": 18.8
+    },
+    {
+        "time": 2002,
+        "geotype": "Sub-borough",
+        "geoid": 8,
+        "geography": "Throgs Neck/Co-op City",
+        "number": 1704,
+        "percent": 4.3
+    },
+    {
+        "time": 2002,
+        "geotype": "Sub-borough",
+        "geoid": 9,
+        "geography": "Pelham Parkway",
+        "number": 6147,
+        "percent": 19.9
+    },
+    {
+        "time": 2002,
+        "geotype": "Sub-borough",
+        "geoid": 10,
+        "geography": "Williamsbridge/Baychester",
+        "number": 7657,
+        "percent": 18.6
+    },
+    {
+        "time": 2002,
+        "geotype": "Sub-borough",
+        "geoid": 11,
+        "geography": "Williamsburg/Greenpoint",
+        "number": 5030,
+        "percent": 11.3
+    },
+    {
+        "time": 2002,
+        "geotype": "Sub-borough",
+        "geoid": 12,
+        "geography": "Brooklyn Heights/Fort Greene",
+        "number": 8701,
+        "percent": 22.1
+    },
+    {
+        "time": 2002,
+        "geotype": "Sub-borough",
+        "geoid": 13,
+        "geography": "Bedford Stuyvesant",
+        "number": 16567,
+        "percent": 40.6
+    },
+    {
+        "time": 2002,
+        "geotype": "Sub-borough",
+        "geoid": 14,
+        "geography": "Bushwick",
+        "number": 17160,
+        "percent": 49.1
+    },
+    {
+        "time": 2002,
+        "geotype": "Sub-borough",
+        "geoid": 15,
+        "geography": "East New York/Starret City",
+        "number": 15136,
+        "percent": 33.3
+    },
+    {
+        "time": 2002,
+        "geotype": "Sub-borough",
+        "geoid": 16,
+        "geography": "Park Slope/Carroll Gardens",
+        "number": 7713,
+        "percent": 20.7
+    },
+    {
+        "time": 2002,
+        "geotype": "Sub-borough",
+        "geoid": 17,
+        "geography": "Sunset Park",
+        "number": 9183,
+        "percent": 24.2
+    },
+    {
+        "time": 2002,
+        "geotype": "Sub-borough",
+        "geoid": 18,
+        "geography": "N. Crown Heights/Prospect Heights",
+        "number": 17750,
+        "percent": 42.6
+    },
+    {
+        "time": 2002,
+        "geotype": "Sub-borough",
+        "geoid": 19,
+        "geography": "South Crown Heights",
+        "number": 16904,
+        "percent": 47.6
+    },
+    {
+        "time": 2002,
+        "geotype": "Sub-borough",
+        "geoid": 20,
+        "geography": "Bay Ridge",
+        "number": 2852,
+        "percent": 7.1
+    },
+    {
+        "time": 2002,
+        "geotype": "Sub-borough",
+        "geoid": 21,
+        "geography": "Bensonhurst",
+        "number": 6934,
+        "percent": 12.4
+    },
+    {
+        "time": 2002,
+        "geotype": "Sub-borough",
+        "geoid": 22,
+        "geography": "Borough Park",
+        "number": 10628,
+        "percent": 25.8
+    },
+    {
+        "time": 2002,
+        "geotype": "Sub-borough",
+        "geoid": 23,
+        "geography": "Coney Island",
+        "number": 6446,
+        "percent": 15.9
+    },
+    {
+        "time": 2002,
+        "geotype": "Sub-borough",
+        "geoid": 24,
+        "geography": "Flatbush",
+        "number": 19671,
+        "percent": 40.2
+    },
+    {
+        "time": 2002,
+        "geotype": "Sub-borough",
+        "geoid": 25,
+        "geography": "Sheepshead Bay/Gravesend",
+        "number": 6115,
+        "percent": 12.1
+    },
+    {
+        "time": 2002,
+        "geotype": "Sub-borough",
+        "geoid": 26,
+        "geography": "Brownsville/Ocean Hill",
+        "number": 17731,
+        "percent": 46.4
+    },
+    {
+        "time": 2002,
+        "geotype": "Sub-borough",
+        "geoid": 27,
+        "geography": "East Flatbush",
+        "number": 17626,
+        "percent": 39
+    },
+    {
+        "time": 2002,
+        "geotype": "Sub-borough",
+        "geoid": 28,
+        "geography": "Flatlands/Canarsie",
+        "number": 13327,
+        "percent": 23.7
+    },
+    {
+        "time": 2002,
+        "geotype": "Sub-borough",
+        "geoid": 29,
+        "geography": "Greenwich Village/Financial District",
+        "number": 8841,
+        "percent": 17.6
+    },
+    {
+        "time": 2002,
+        "geotype": "Sub-borough",
+        "geoid": 30,
+        "geography": "Lower East Side/Chinatown",
+        "number": 17850,
+        "percent": 29
+    },
+    {
+        "time": 2002,
+        "geotype": "Sub-borough",
+        "geoid": 31,
+        "geography": "Chelsea/Clinton/Midtown",
+        "number": 9257,
+        "percent": 16.6
+    },
+    {
+        "time": 2002,
+        "geotype": "Sub-borough",
+        "geoid": 32,
+        "geography": "Stuyvesant Town/Turtle Bay",
+        "number": 5760,
+        "percent": 8.3
+    },
+    {
+        "time": 2002,
+        "geotype": "Sub-borough",
+        "geoid": 33,
+        "geography": "Upper West Side",
+        "number": 9609,
+        "percent": 10.2
+    },
+    {
+        "time": 2002,
+        "geotype": "Sub-borough",
+        "geoid": 34,
+        "geography": "Upper East Side",
+        "number": 11353,
+        "percent": 11
+    },
+    {
+        "time": 2002,
+        "geotype": "Sub-borough",
+        "geoid": 35,
+        "geography": "Morningside Heights/Hamilton Heights",
+        "number": 15583,
+        "percent": 34.8
+    },
+    {
+        "time": 2002,
+        "geotype": "Sub-borough",
+        "geoid": 36,
+        "geography": "Central Harlem",
+        "number": 14434,
+        "percent": 37.2
+    },
+    {
+        "time": 2002,
+        "geotype": "Sub-borough",
+        "geoid": 37,
+        "geography": "East Harlem",
+        "number": 12219,
+        "percent": 33.1
+    },
+    {
+        "time": 2002,
+        "geotype": "Sub-borough",
+        "geoid": 38,
+        "geography": "Washington Heights/Inwood",
+        "number": 29304,
+        "percent": 45.4
+    },
+    {
+        "time": 2002,
+        "geotype": "Sub-borough",
+        "geoid": 39,
+        "geography": "Astoria",
+        "number": 7423,
+        "percent": 11.3
+    },
+    {
+        "time": 2002,
+        "geotype": "Sub-borough",
+        "geoid": 40,
+        "geography": "Sunnyside/Woodside",
+        "number": 7386,
+        "percent": 18.5
+    },
+    {
+        "time": 2002,
+        "geotype": "Sub-borough",
+        "geoid": 41,
+        "geography": "Jackson Heights",
+        "number": 10537,
+        "percent": 22.7
+    },
+    {
+        "time": 2002,
+        "geotype": "Sub-borough",
+        "geoid": 42,
+        "geography": "Elmhurst/Corona",
+        "number": 12440,
+        "percent": 34.2
+    },
+    {
+        "time": 2002,
+        "geotype": "Sub-borough",
+        "geoid": 43,
+        "geography": "Middle Village/Ridgewood",
+        "number": 9711,
+        "percent": 17.3
+    },
+    {
+        "time": 2002,
+        "geotype": "Sub-borough",
+        "geoid": 44,
+        "geography": "Forest Hills/Rego Park",
+        "number": 3636,
+        "percent": 8.1
+    },
+    {
+        "time": 2002,
+        "geotype": "Sub-borough",
+        "geoid": 45,
+        "geography": "Flushing/Whitestone",
+        "number": 10710,
+        "percent": 13.6
+    },
+    {
+        "time": 2002,
+        "geotype": "Sub-borough",
+        "geoid": 46,
+        "geography": "Hillcrest/Fresh Meadows",
+        "number": 5257,
+        "percent": 10.6
+    },
+    {
+        "time": 2002,
+        "geotype": "Sub-borough",
+        "geoid": 47,
+        "geography": "Kew Gardens/Woodhaven",
+        "number": 7611,
+        "percent": 17.7
+    },
+    {
+        "time": 2002,
+        "geotype": "Sub-borough",
+        "geoid": 48,
+        "geography": "Howard Beach/South Ozone Park",
+        "number": 2615,
+        "percent": 6.5
+    },
+    {
+        "time": 2002,
+        "geotype": "Sub-borough",
+        "geoid": 49,
+        "geography": "Bayside/Little Neck",
+        "number": 674,
+        "percent": 1.7
+    },
+    {
+        "time": 2002,
+        "geotype": "Sub-borough",
+        "geoid": 50,
+        "geography": "Jamaica",
+        "number": 8735,
+        "percent": 13.8
+    },
+    {
+        "time": 2002,
+        "geotype": "Sub-borough",
+        "geoid": 51,
+        "geography": "Bellerose/Rosedale",
+        "number": 4895,
+        "percent": 8.9
+    },
+    {
+        "time": 2002,
+        "geotype": "Sub-borough",
+        "geoid": 52,
+        "geography": "Rockaways",
+        "number": 5808,
+        "percent": 16.7
+    },
+    {
+        "time": 2002,
+        "geotype": "Sub-borough",
+        "geoid": 53,
+        "geography": "North Shore",
+        "number": 7486,
+        "percent": 15.1
+    },
+    {
+        "time": 2002,
+        "geotype": "Sub-borough",
+        "geoid": 54,
+        "geography": "Mid Island",
+        "number": 1729,
+        "percent": 4.2
+    },
+    {
+        "time": 2002,
+        "geotype": "Sub-borough",
+        "geoid": 55,
+        "geography": "South Shore",
+        "number": 613,
+        "percent": 1.2
+    },
+    {
+        "time": 2002,
+        "geotype": "Borough",
+        "geoid": 1,
+        "geography": "Bronx",
+        "number": 137553,
+        "percent": 34.1
+    },
+    {
+        "time": 2002,
+        "geotype": "Borough",
+        "geoid": 2,
+        "geography": "Brooklyn",
+        "number": 215474,
+        "percent": 27.8
+    },
+    {
+        "time": 2002,
+        "geotype": "Borough",
+        "geoid": 3,
+        "geography": "Manhattan",
+        "number": 134212,
+        "percent": 21.7
+    },
+    {
+        "time": 2002,
+        "geotype": "Borough",
+        "geoid": 4,
+        "geography": "Queens",
+        "number": 97437,
+        "percent": 14
+    },
+    {
+        "time": 2002,
+        "geotype": "Borough",
+        "geoid": 5,
+        "geography": "Staten Island",
+        "number": 9828,
+        "percent": 7
+    },
+    {
+        "time": 2002,
+        "geotype": "Citywide",
+        "geoid": 1,
+        "geography": "New York City",
+        "number": 594504,
+        "percent": 22.6
+    }
+]

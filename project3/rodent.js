@@ -1,6 +1,6 @@
 let data;
-let positionData = [];
-let radiusData = [];
+//let positionData = [];
+let rodentData = [];
 
 let x;
 let y;
@@ -42,25 +42,64 @@ fetch('rodent.json')
     // window.data = data;
     data.forEach(item =>{
         // windowData.push(item.number);
-        radiusData.push(item.number);
-        positionData.push(item.geoid);
+        rodentData.push(item);
+        //positionData.push(item.geoid);
 
     })
     console.log(windowData);
 
   });
 
+  let dropdown;
+  let chosenFilter = 'draw all';
+
   function setup() {
+    
     createCanvas(windowWidth, windowHeight);
     // background(100,5,5);
     rect(50,50,50,50);
     noStroke();
     // x = random()*windowWidth;
     // y = random()*windowHeight;
-  
+    dropdown = createSelect();
+    dropdown.option('All')
+    dropdown.option('Manhattan')
+    dropdown.option('Brooklyn')
+    dropdown.option('Bronx')
+    dropdown.option('Queens')
+    dropdown.option('Staten Island')
+    dropdown.changed(changeFilter)
+
     console.log("Setup function ran successfully!");
+    console.log('rodent data:', rodentData);
   }
 
+  function changeFilter() {
+    let dropdownValue = dropdown.value();
+
+    switch (dropdownValue) {
+        case 'Manhattan':
+            chosenFilter = 1;
+            break;
+        case 'Brooklyn':
+            chosenFilter = 2;
+            break;
+        case 'Bronx':
+            chosenFilter = 3;
+            break;
+        case 'Queens':
+            chosenFilter = 4;
+            break;
+        case 'Staten Island':
+            chosenFilter = 5;
+            break;
+        case 'All':
+            chosenFilter ='draw all';
+            break;
+    }
+    console.log('chosen filter', chosenFilter)
+  }
+ 
   function draw(){
     background(100,5,5);
     // if(windowData){
@@ -70,15 +109,28 @@ fetch('rodent.json')
     //     fill(0);
 
     // }
-    radiusData.forEach( radius => {
-        x = map(radius, 3000, 600000, 0, windowWidth);
-        y = map(radius, 3000, 600000, 0, windowHeight);
-        gradient = map(radius, 3000, 600000, 0, 255)
-        let circleRadius = map(radius, 3000, 60000, 1, 5);
-        circle(x, y,circleRadius);
-        // fill(255, 0,0);
-        fill(gradient,0,0);
-        
+
+
+    rodentData.forEach( incident => {
+        if (incident.geoid === chosenFilter) {
+            x = map(incident.number, 3000, 600000, 40, windowWidth - 40);
+            y = map(incident.number, 3000, 600000, 40, windowHeight - 40);
+            gradient = map(incident.number, 3000, 600000, 0, 255)
+            let circleDiameter = map(incident.number, 3000, 60000, 10, 20);
+            circle(x, y,circleDiameter);
+            // fill(0, 0,0);
+            fill(6,0,0);
+        }
+
+        if (chosenFilter === 'draw all') {
+            x = map(incident.number, 3000, 600000, 40, windowWidth - 40);
+            y = map(incident.number, 3000, 600000, 40, windowHeight - 40);
+            gradient = map(incident.number, 3000, 600000, 0, 255)
+            let circleDiameter = map(incident.number, 3000, 60000, 10, 20);
+            circle(x, y,circleDiameter);
+            // fill(255, 0,0);
+            fill(50,205,50);
+        }
     })
   }
 

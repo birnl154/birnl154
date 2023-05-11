@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<head class=“cursor”>
+<head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,24 +8,32 @@
     <link rel="stylesheet" type="text/css" href="rodent.css">
     <script src="rodent.json"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.min.js"></script>
-
     <script src="rodent.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Sedgwick+Ave+Display&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sedgwick+Ave+Display&display=swap" rel="stylesheet">
+    <style>
+        .custom-cursor {
+            cursor: url('caution.cur'), auto;
+        }
+    </style>
 </head>
-
-
-<body>
+<body class="custom-cursor">
     <canvas></canvas>
+    <div  class="about">
+        <p>about</p>
+    </div>
     <div class="header">
         <h1>the rats run this city</h1>
-        <p> 🐀🐀🐀</p>
+        <div class="ratsound">
+            <p onmouseover="playAudio()">🐀🐀🐀</p>
+            <audio id="rats">
+                <source src="rats.mp3" type="audio/mpeg">
+            </audio>
+        </div>
         <br>
     </div>
-    <a href="page1.html"><h1> explore the borough data</h1></a>
-
-
-      <div id="results"></div>
-      
+    <a href="rodentp1.html"><h1>let the rats take over</h1></a>
+    <br><br><br><br><br><br><br><br>
 </body>
+</html>

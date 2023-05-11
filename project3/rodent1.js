@@ -1,3 +1,10 @@
+
+let leopard = "me";
+if (leopard === "me") {
+  alert("TW: Rapid rat movement, caution to epilectic viewers");
+} else {
+  alert("TW: Rapid rat movement, caution to epilectic viewers");
+}
 let data;
 //let positionData = [];
 let rodentData = [];
@@ -53,12 +60,14 @@ fetch('rodent.json')
   let dropdown;
   let chosenFilter = 'draw all';
 
-
-
   function setup() {
     
     createCanvas(windowWidth, windowHeight);
-
+    // background(100,5,5);
+    rect(50,50,50,50);
+    //noStroke();
+    // x = random()*windowWidth;
+    // y = random()*windowHeight;
     dropdown = createSelect();
     dropdown.option('All')
     dropdown.option('Mott Haven/Hunts Point')
@@ -120,13 +129,6 @@ fetch('rodent.json')
 
     console.log("Setup function ran successfully!");
     console.log('rodent data:', rodentData);
-
-    dropdown.style('font-family', 'Arial, sans-serif');
-    dropdown.style('font-size', '16px');
-    dropdown.style('color', '#333');
-    dropdown.style('background-color', '#f0f0f0');
-    dropdown.style('padding', '10px');
-    dropdown.style('width', '200px');
   }
 
   function changeFilter() {
@@ -302,39 +304,42 @@ case 'East Harlem':
               case 'All':
                 chosenFilter = 56;
                 break; 
+
     }
     console.log('chosen filter', chosenFilter)
     
   }
- 
-  function draw() {
-    background(100, 5, 5);
+function draw(){
+    background(100,5,5);
     createCanvas(windowWidth, windowHeight);
-  
-    rodentData.forEach(incident => {
-      if (incident.geoid === chosenFilter || chosenFilter === 'draw all') {
-        let numRats = floor(incident.number / 1000);
-        let spacing = 50;
-        let startX = (width - numRats * spacing) / 2;
-        let startY = height / 2;
-  
-        for (let i = 0; i < numRats; i++) {
-          for (let j = 0; j < numRats; j++) {
-            let x = startX + i * spacing;
-            let y = startY + j * spacing;
-            textSize(60);
-            text('🐀', x, y);
-          }
+
+    rodentData.forEach( incident => {
+        if (incident.geoid === chosenFilter) {
+            let numRats = Math.floor(incident.number / 1000);
+            let emoji = '🐀';
+            let size = map(incident.number, 613, 29304, 10, 50);
+            textSize(100);
+            fill(50, 205, 50);
+
+            for (let i = 0; i < numRats; i++) {
+                let x = random(size, width - size);
+                let y = random(size, height - size);
+                text(emoji, x, y);
+            }
         }
-  
 
-      }
-    });
-  }
-  
+        if (chosenFilter === 'draw all') {
+            let numRats = Math.floor(incident.number / 1000);
+            let emoji = '🐀';
+            textSize(100);
+            let size = map(incident.number, 613, 29304, 10, 50);
+            fill(50, 205, 50);
 
-
-function playAudio() {
-  var audio = document.getElementById("rats");
-  audio.play();
+            for (let i = 0; i < numRats; i++) {
+                let x = random(size, width - size);
+                let y = random(size, height - size);
+                text(emoji, x, y);
+            }
+        }
+    })
 }

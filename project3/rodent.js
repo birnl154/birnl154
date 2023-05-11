@@ -13,25 +13,6 @@ function preload() {
     });
   }
 
-// function setup() {
-//   createCanvas(windowWidth, windowHeight);
-//   background(100,5,5);
-//   rect(50,50,50,50);
-//   noStroke();
-
-//   for (let i = 0; i < data.length; i++) {
-//     let percent = data[i].percent.split(' ')[0];
-//     let radius = map(percent, 0, 100, 10, 100);
-//     let x = random(radius, width - radius);
-//     let y = random(radius, height - radius);
-
-//     fill(255);
-//     circle(x, y, radius);
-//     console.log(percent);
-//   }
-//   console.log("Setup function ran successfully!");
-// }
-
 
 
 // Load the rodent.json file and parse it into an array of objects
@@ -121,7 +102,7 @@ fetch('rodent.json')
     console.log("Setup function ran successfully!");
     console.log('rodent data:', rodentData);
 
-    dropdown.style('font-family', 'Arial, sans-serif');
+    dropdown.style('font-family', 'Impact, sans-serif');
     dropdown.style('font-size', '16px');
     dropdown.style('color', '#333');
     dropdown.style('background-color', '#f0f0f0');

@@ -129,6 +129,13 @@ fetch('rodent.json')
 
     console.log("Setup function ran successfully!");
     console.log('rodent data:', rodentData);
+
+    dropdown.style('font-family', 'Impact, sans-serif');
+    dropdown.style('font-size', '16px');
+    dropdown.style('color', '#333');
+    dropdown.style('background-color', '#f0f0f0');
+    dropdown.style('padding', '10px');
+    dropdown.style('width', '200px')
   }
 
   function changeFilter() {

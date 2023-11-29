@@ -1,0 +1,80 @@
+.words {
+background-color: #fff;
+color: black;
+padding: 50;
+align-items: center;
+margin: 20px;
+text-align: center;
+line-height: 4;
+font-size: 15px;
+}
+
+
+.word-box {
+    display: inline-block;
+    background-color: white;
+    padding: 10px; /* Adjust padding to create a square */
+    margin: 5px; /* Add spacing between words */
+  }
+
+body{
+    background-color:black;
+}
+
+
+.title {
+    color: lightblue;
+    align-items: center;
+    text-align: center;
+    font-size: 200px;
+        font-family: 'austin', cursive;
+        font-weight: 50;
+}
+
+nav {
+
+    height: 50px;
+    color: #fff;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-family: 'Rubik Light', sans-serif;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    display: block;
+    color: #fff;
+    text-align: center;
+    padding: 25px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: rgb(0, 0, 0);
+}
+
+#you {
+    position: absolute;
+    z-index: 30;
+    text-align: center;
+    background-color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  
+  #must {
+    position: absolute;
+    z-index: 9;
+    text-align: center;
+    background-color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+ 

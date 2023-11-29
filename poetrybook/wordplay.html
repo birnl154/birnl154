@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head class=“cursor”>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lydia</title>
+    <link rel="stylesheet" type="text/css" href="wordplay.css">
+    <link rel="stylesheet" href="https://use.typekit.net/zpe8fad.css">
+    <script src="wordplay.js"></script>
+    
+</head>
+
+<body>
+    
+    <nav>
+        <ul>
+            <li><a href="mainpage.html">home</a></li>
+            <li><a href="about.html">about</a></li>
+            <li><a href="wordplay.html">word play</a></li>
+            <li><a href="shakespearewordplay.html">shakespeare word play</a></li>
+        </ul>
+    </nav>
+
+    <div id="you">
+        <p>you</p>
+      </div>
+
+      <div id="must">
+        <p>must</p>
+      </div>
+
+
+    <div class="word-box">you</div>
+    <div class="word-box">must</div>
+    <div class="word-box">find</div>
+
+        <div class="words">
+            you <br> 
+            must<br> 
+            find<br>
+            the <br>  
+            once <br> 
+            do <br> 
+            dance <br>
+            man <br> 
+            friend <br> 
+            family <br> 
+            break <br> 
+            with <br> 
+            then <br> 
+            until <br> 
+            night <br> 
+            woman <br> 
+            for <br> 
+            ever <br> 
+            there <br> 
+            fine <br> 
+            dream <br> 
+            up <br> 
+            down <br> 
+            your<br> 
+    
+            <br> 
+        </div>
+    <script>
+// Example usage:
+dragElement(document.getElementById("you"));
+dragElement(document.getElementById("must"));
+
+// Function to get a random position
+function getRandomPosition() {
+  var maxX = window.innerWidth - 100; // Adjust 100 to the width of your draggable element
+  var maxY = window.innerHeight - 100; // Adjust 100 to the height of your draggable element
+
+  var randomX = Math.floor(Math.random() * maxX);
+  var randomY = Math.floor(Math.random() * maxY);
+
+  return { x: randomX, y: randomY };
+}
+
+function dragElement(elmnt) {
+  var pos1 = 0, pos2 = 0, pos3 = 0, pos4 = 0;
+  var header = elmnt.getElementsByClassName("drag-header")[0] || elmnt;
+
+  // Set random initial position
+  var minY = 50;
+  var randomPosition = getRandomPosition();
+  elmnt.style.top = randomPosition.y + "px";
+  elmnt.style.left = randomPosition.x + "px";
+
+  header.onmousedown = dragMouseDown;
+
+  function dragMouseDown(e) {
+    e = e || window.event;
+    e.preventDefault();
+    pos3 = e.clientX;
+    pos4 = e.clientY;
+    document.onmouseup = closeDragElement;
+    document.onmousemove = elementDrag;
+  }
+
+  function elementDrag(e) {
+    e = e || window.event;
+    e.preventDefault();
+    pos1 = pos3 - e.clientX;
+    pos2 = pos4 - e.clientY;
+    pos3 = e.clientX;
+    pos4 = e.clientY;
+    elmnt.style.top = (elmnt.offsetTop - pos2) + "px";
+    elmnt.style.left = (elmnt.offsetLeft - pos1) + "px";
+  }
+
+  function closeDragElement() {
+    document.onmouseup = null;
+    document.onmousemove = null;
+  }
+}
+
+    </script>
+
+        <br>
+      
+</body>
+

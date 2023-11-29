@@ -74,3 +74,99 @@ nav ul li a:hover {
     margin: 20px;
     padding: 140px;
 }
+
+@media (min-width: 320px) and (max-width: 480px) {
+    
+    img {
+        width: 340px;
+        margin: 10px;
+    }
+}
+
+@media (min-width: 1281px) {
+}
+  
+  /* 
+    ##Device = Laptops, Desktops
+    ##Screen = B/w 1025px to 1280px
+  */
+  
+  @media (min-width: 1025px) and (max-width: 1280px) {
+    
+    img {
+        width: 420px;
+        margin: 10px;
+    }
+    
+    body {
+        height: 8300px;
+        display: flex;
+      background-color: white;/* For browsers that do not support gradients */
+      background-image: linear-gradient(white, #d5c5bc,  #603813);
+    
+    }
+    .smallscreeninfo {
+        opacity: 0;
+     }
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (portrait)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) {
+    
+    img {
+        width: 420px;
+        margin: 10px;
+    }
+    
+    body {
+        height: 8300px;
+        display: flex;
+      background-color: white;/* For browsers that do not support gradients */
+      background-image: linear-gradient(white, #d5c5bc,  #603813);
+    
+    }
+    .smallscreeninfo {
+        opacity: 0;
+     }
+    
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (landscape)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    
+    img {
+        width: 330px;
+        margin: 10px;
+    }
+    
+    body {
+        height: 8300px;
+        display: flex;
+      background-color: white;/* For browsers that do not support gradients */
+      background-image: linear-gradient(white, #d5c5bc,  #603813);
+    
+    }
+    .smallscreeninfo {
+       opacity: 0;
+    }
+  }
+  
+  /* 
+    ##Device = Low Resolution Tablets, Mobiles (Landscape)
+    ##Screen = B/w 481px to 767px
+  */
+  
+  @media (min-width: 481px) and (max-width: 767px) {
+    
+    img {
+        width: 280px;
+        margin: 10px;
+    }

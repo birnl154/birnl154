@@ -1,11 +1,76 @@
-body{
-    font-size: 20px;
-    color: red;
-    background-color: pink;
-    font-family: 'Franklin Gothic Medium';
-    margin: 50px
+img {
+    height:500px;
+    padding: 30px;
+
+}
+a {
+color:white;
+ font-family: 'Rubik', sans-serif;
+ font-size: 30px;
+ 
+}
+.email {
+    padding: 20px;
+    text-align:center;
+    margin-top: 350px;
+}
+.graphicdesign {
+    margin-top:300px;
+    text-align:center;
 }
 
-a {
+.webdesign {
+    margin-top:300px;
+    text-align:center;
+}
+
+h1 {
+    font-family: 'Rubik', sans-serif;
     color: white;
+    font-size: 30px;
+}
+body {
+    background-color: rgb(36, 36, 36);
+}
+
+nav {
+    background-color:  rgb(36, 36, 36);
+    height: 50px;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-family: 'Rubik Light', sans-serif;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    display: block;
+    color: #fff;
+    text-align: center;
+    padding: 25px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: rgb(0, 0, 0);
+}
+
+
+.name {
+    text-align:center;
+    margin-top: 350px;
+    font-size: 30px;
+
+}
+
+.about {
+    font-size: 20px;
+    margin: 20px;
+    padding: 140px;
 }

@@ -30,7 +30,62 @@
         <p>must</p>
       </div>
 
+      <div id="find">
+        <p>find</p>
+      </div>
 
+      <div id="the">
+        <p>the</p>
+      </div>
+
+      <div id="once">
+        <p>once</p>
+      </div>
+
+
+      <div id="do">
+        <p>do</p>
+      </div>
+
+      <div id="dance">
+        <p>dance</p>
+      </div>
+
+      <div id="man">
+        <p>man</p>
+      </div>
+
+      <div id="friend">
+        <p>friend</p>
+      </div>
+
+      <div id="family">
+        <p>family</p>
+      </div>
+
+      <div id="with">
+        <p>with</p>
+      </div>
+
+      <div id="break">
+        <p>break</p>
+      </div>
+
+      <div id="then">
+        <p>then</p>
+      </div>
+
+      <div id="until">
+        <p>until</p>
+      </div>
+
+      <div id="night">
+        <p>night</p>
+      </div>
+
+      <div id="woman">
+        <p>woman</p>
+      </div>
     <div class="word-box">you</div>
     <div class="word-box">must</div>
     <div class="word-box">find</div>
@@ -67,16 +122,65 @@
 // Example usage:
 dragElement(document.getElementById("you"));
 dragElement(document.getElementById("must"));
+dragElement(document.getElementById("find"));
+dragElement(document.getElementById("the"));
+dragElement(document.getElementById("once"));
+dragElement(document.getElementById("do"));
+dragElement(document.getElementById("dance"));
+dragElement(document.getElementById("man"));
+dragElement(document.getElementById("friend"));
+dragElement(document.getElementById("family"));
+dragElement(document.getElementById("break"));
+dragElement(document.getElementById("with"));
+dragElement(document.getElementById("then"));
+dragElement(document.getElementById("until"));
+dragElement(document.getElementById("night"));
+dragElement(document.getElementById("woman"));
+dragElement(document.getElementById("for"));
+dragElement(document.getElementById("ever"));
+dragElement(document.getElementById("there"));
+dragElement(document.getElementById("fine"));
+dragElement(document.getElementById("dream"));
+dragElement(document.getElementById("up"));
 
-// Function to get a random position
+// Function to get a random position within the specified range
 function getRandomPosition() {
-  var maxX = window.innerWidth - 100; // Adjust 100 to the width of your draggable element
-  var maxY = window.innerHeight - 100; // Adjust 100 to the height of your draggable element
+  var maxX = window.innerWidth - 2; // Adjust 100 to the width of your draggable element
+  var maxY = window.innerHeight - 2; // Adjust 100 to the height of your draggable element
 
-  var randomX = Math.floor(Math.random() * maxX);
-  var randomY = Math.floor(Math.random() * maxY);
+  // Adjust these values to exclude the top 35 pixels
+  var minY = 70;
+
+  var randomX, randomY;
+
+  do {
+    randomX = Math.floor(Math.random() * (maxX - 1)); // Reduced size
+randomY = Math.floor(Math.random() * (maxY - minY - 1) + minY); // Reduced size
+  } while (checkOverlap(randomX, randomY));
 
   return { x: randomX, y: randomY };
+}
+
+// Function to check if a position overlaps with existing divs
+function checkOverlap(x, y) {
+  var elements = document.getElementsByClassName("draggable");
+  for (var i = 0; i < elements.length; i++) {
+    var element = elements[i];
+    var rect = element.getBoundingClientRect();
+
+    if (
+      x < rect.right &&
+      x + 100 > rect.left &&
+      y < rect.bottom &&
+      y + 100 > rect.top
+    ) {
+      // Overlapping with another div
+      return true;
+    }
+  }
+
+  // Not overlapping
+  return false;
 }
 
 function dragElement(elmnt) {
@@ -84,7 +188,6 @@ function dragElement(elmnt) {
   var header = elmnt.getElementsByClassName("drag-header")[0] || elmnt;
 
   // Set random initial position
-  var minY = 50;
   var randomPosition = getRandomPosition();
   elmnt.style.top = randomPosition.y + "px";
   elmnt.style.left = randomPosition.x + "px";

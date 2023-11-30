@@ -43,8 +43,7 @@
         background-color: rgb(0, 0, 0);
     }
     
-
-    #you {
+    #thou {
         position: absolute;
         z-index: 30;
         text-align: center;
@@ -53,17 +52,7 @@
         padding-right: 10px;
       }
       
-
-    #a {
-        position: absolute;
-        z-index: 30;
-        text-align: center;
-        background-color: white;
-        padding-left: 10px;
-        padding-right: 10px;
-      }
-
-      #must {
+      #shall {
         position: absolute;
         z-index: 9;
         text-align: center;
@@ -72,16 +61,7 @@
         padding-right: 10px;
       }
      
-      #once {
-        position: absolute;
-        z-index: 9;
-        text-align: center;
-        background-color: white;
-        padding-left: 10px;
-        padding-right: 10px;
-      }
-     
-      #find {
+      #bestow {
         position: absolute;
         z-index: 9;
         text-align: center;
@@ -99,7 +79,7 @@
         padding-right: 10px;
       }
      
-      #do {
+      #once {
         position: absolute;
         z-index: 9;
         text-align: center;
@@ -108,43 +88,7 @@
         padding-right: 10px;
       }
      
-      #dance {
-        position: absolute;
-        z-index: 9;
-        text-align: center;
-        background-color: white;
-        padding-left: 10px;
-        padding-right: 10px;
-      }
-     
-      #man {
-        position: absolute;
-        z-index: 9;
-        text-align: center;
-        background-color: white;
-        padding-left: 10px;
-        padding-right: 10px;
-      }
-     
-      #friend {
-        position: absolute;
-        z-index: 9;
-        text-align: center;
-        background-color: white;
-        padding-left: 10px;
-        padding-right: 10px;
-      }
-     
-      #family {
-        position: absolute;
-        z-index: 9;
-        text-align: center;
-        background-color: white;
-        padding-left: 10px;
-        padding-right: 10px;
-      }
-    
-      #break {
+      #doth {
         position: absolute;
         z-index: 9;
         text-align: center;
@@ -162,7 +106,7 @@
         padding-right: 10px;
       }
      
-      #then {
+      #hence {
         position: absolute;
         z-index: 9;
         text-align: center;
@@ -171,7 +115,16 @@
         padding-right: 10px;
       }
      
-      #until {
+      #til {
+        position: absolute;
+        z-index: 9;
+        text-align: center;
+        background-color: white;
+        padding-left: 10px;
+        padding-right: 10px;
+      }
+     
+      #eve {
         position: absolute;
         z-index: 9;
         text-align: center;
@@ -180,25 +133,6 @@
         padding-right: 10px;
       }
     
-      #night {
-        position: absolute;
-        z-index: 9;
-        text-align: center;
-        background-color: white;
-        padding-left: 10px;
-        padding-right: 10px;
-      }
-    
-      #woman {
-        position: absolute;
-        z-index: 9;
-        text-align: center;
-        background-color: white;
-        padding-left: 10px;
-        padding-right: 10px;
-      }
-     
-     
       #for {
         position: absolute;
         z-index: 9;
@@ -209,6 +143,61 @@
       }
      
       #ever {
+        position: absolute;
+        z-index: 9;
+        text-align: center;
+        background-color: white;
+        padding-left: 10px;
+        padding-right: 10px;
+      }
+     
+      #there {
+        position: absolute;
+        z-index: 9;
+        text-align: center;
+        background-color: white;
+        padding-left: 10px;
+        padding-right: 10px;
+      }
+     
+      #fine {
+        position: absolute;
+        z-index: 9;
+        text-align: center;
+        background-color: white;
+        padding-left: 10px;
+        padding-right: 10px;
+      }
+    
+      #forth {
+        position: absolute;
+        z-index: 9;
+        text-align: center;
+        background-color: white;
+        padding-left: 10px;
+        padding-right: 10px;
+      }
+    
+      #upon {
+        position: absolute;
+        z-index: 9;
+        text-align: center;
+        background-color: white;
+        padding-left: 10px;
+        padding-right: 10px;
+      }
+     
+     
+      #fortnight {
+        position: absolute;
+        z-index: 9;
+        text-align: center;
+        background-color: white;
+        padding-left: 10px;
+        padding-right: 10px;
+      }
+     
+      #thy {
         position: absolute;
         z-index: 9;
         text-align: center;

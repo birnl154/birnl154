@@ -42,7 +42,7 @@
     nav ul li a:hover {
         background-color: rgb(0, 0, 0);
     }
-    
+
 
     #you {
         position: absolute;
@@ -52,9 +52,17 @@
         padding-left: 10px;
         padding-right: 10px;
       }
-      
 
-    #a {
+      #a {
+        position: absolute;
+        z-index: 30;
+        text-align: center;
+        background-color: white;
+        padding-left: 10px;
+        padding-right: 10px;
+      }
+
+      #about {
         position: absolute;
         z-index: 30;
         text-align: center;
@@ -272,4 +280,771 @@
       }
      
      
-     
+      #all {
+        position: absolute;
+        z-index: 9;
+        text-align: center;
+        background-color: white;
+        padding-left: 10px;
+        padding-right: 10px;
+      }
+      #also {
+        position: absolute;
+        z-index: 9;
+        text-align: center;
+        background-color: white;
+        padding-left: 10px;
+        padding-right: 10px;
+      }
+      #and{
+        position: absolute;
+        z-index: 9;
+        text-align: center;
+        background-color: white;
+        padding-left: 10px;
+        padding-right: 10px;
+      }
+      #as{
+        position: absolute;
+        z-index: 9;
+        text-align: center;
+        background-color: white;
+        padding-left: 10px;
+        padding-right: 10px;
+      }
+      #at{
+        position: absolute;
+        z-index: 9;
+        text-align: center;
+        background-color: white;
+        padding-left: 10px;
+        padding-right: 10px;
+      }
+      #be{
+        position: absolute;
+        z-index: 9;
+        text-align: center;
+        background-color: white;
+        padding-left: 10px;
+        padding-right: 10px;
+      }
+      #because{
+        position: absolute;
+        z-index: 9;
+        text-align: center;
+        background-color: white;
+        padding-left: 10px;
+        padding-right: 10px;
+      }
+      #but{
+        position: absolute;
+        z-index: 9;
+        text-align: center;
+        background-color: white;
+        padding-left: 10px;
+        padding-right: 10px;
+      }
+      #by{
+        position: absolute;
+        z-index: 9;
+        text-align: center;
+        background-color: white;
+        padding-left: 10px;
+        padding-right: 10px;
+      }
+      #can{
+        position: absolute;
+        z-index: 9;
+        text-align: center;
+        background-color: white;
+        padding-left: 10px;
+        padding-right: 10px;
+      }
+      #come{
+        position: absolute;
+        z-index: 9;
+        text-align: center;
+        background-color: white;
+        padding-left: 10px;
+        padding-right: 10px;
+      }
+      #could{
+        position: absolute;
+        z-index: 9;
+        text-align: center;
+        background-color: white;
+        padding-left: 10px;
+        padding-right: 10px;
+      }
+      #day{
+        position: absolute;
+        z-index: 9;
+        text-align: center;
+        background-color: white;
+        padding-left: 10px;
+        padding-right: 10px;
+      }
+      #do{
+        position: absolute;
+        z-index: 9;
+        text-align: center;
+        background-color: white;
+        padding-left: 10px;
+        padding-right: 10px;
+      }
+      #even{
+        position: absolute;
+        z-index: 9;
+        text-align: center;
+        background-color: white;
+        padding-left: 10px;
+        padding-right: 10px;
+      }
+      find{
+        position: absolute;
+        z-index: 9;
+        text-align: center;
+        background-color: white;
+        padding-left: 10px;
+        padding-right: 10px;
+      }
+      #first{
+        position: absolute;
+        z-index: 9;
+        text-align: center;
+        background-color: white;
+        padding-left: 10px;
+        padding-right: 10px;
+      }
+      #for{
+        position: absolute;
+        z-index: 9;
+        text-align: center;
+        background-color: white;
+        padding-left: 10px;
+        padding-right: 10px;
+      }
+      #from{
+        position: absolute;
+        z-index: 9;
+        text-align: center;
+        background-color: white;
+        padding-left: 10px;
+        padding-right: 10px;
+      }
+      #get{
+        position: absolute;
+        z-index: 9;
+        text-align: center;
+        background-color: white;
+        padding-left: 10px;
+        padding-right: 10px;
+      }
+      #give{
+        position: absolute;
+        z-index: 9;
+        text-align: center;
+        background-color: white;
+        padding-left: 10px;
+        padding-right: 10px;
+      }
+      #go{
+        position: absolute;
+        z-index: 9;
+        text-align: center;
+        background-color: white;
+        padding-left: 10px;
+        padding-right: 10px;
+      }
+      #have{
+        position: absolute;
+        z-index: 9;
+        text-align: center;
+        background-color: white;
+        padding-left: 10px;
+        padding-right: 10px;
+      }
+      #he{
+        position: absolute;
+        z-index: 9;
+        text-align: center;
+        background-color: white;
+        padding-left: 10px;
+        padding-right: 10px;
+      }
+      #her{
+        position: absolute;
+        z-index: 9;
+        text-align: center;
+        background-color: white;
+        padding-left: 10px;
+        padding-right: 10px;
+      }
+      #here{
+        position: absolute;
+        z-index: 9;
+        text-align: center;
+        background-color: white;
+        padding-left: 10px;
+        padding-right: 10px;
+      }
+      #him{
+        position: absolute;
+        z-index: 9;
+        text-align: center;
+        background-color: white;
+        padding-left: 10px;
+        padding-right: 10px;
+      }
+      #his{
+        position: absolute;
+        z-index: 9;
+        text-align: center;
+        background-color: white;
+        padding-left: 10px;
+        padding-right: 10px;
+      }
+      #how{
+        position: absolute;
+        z-index: 9;
+        text-align: center;
+        background-color: white;
+        padding-left: 10px;
+        padding-right: 10px;
+      }
+      #I{
+        position: absolute;
+        z-index: 9;
+        text-align: center;
+        background-color: white;
+        padding-left: 10px;
+        padding-right: 10px;
+      }
+      #if{
+        position: absolute;
+        z-index: 9;
+        text-align: center;
+        background-color: white;
+        padding-left: 10px;
+        padding-right: 10px;
+      }
+      #in{
+        position: absolute;
+        z-index: 9;
+        text-align: center;
+        background-color: white;
+        padding-left: 10px;
+        padding-right: 10px;
+      }
+      #into{
+        position: absolute;
+        z-index: 9;
+        text-align: center;
+        background-color: white;
+        padding-left: 10px;
+        padding-right: 10px;
+      }
+      #it{
+        position: absolute;
+        z-index: 9;
+        text-align: center;
+        background-color: white;
+        padding-left: 10px;
+        padding-right: 10px;
+      }
+      #its{
+        position: absolute;
+        z-index: 9;
+        text-align: center;
+        background-color: white;
+        padding-left: 10px;
+        padding-right: 10px;
+      }
+      #just{
+        position: absolute;
+        z-index: 9;
+        text-align: center;
+        background-color: white;
+        padding-left: 10px;
+        padding-right: 10px;
+      }
+      #know{
+        position: absolute;
+        z-index: 9;
+        text-align: center;
+        background-color: white;
+        padding-left: 10px;
+        padding-right: 10px;
+      }
+      #like{
+        position: absolute;
+        z-index: 9;
+        text-align: center;
+        background-color: white;
+        padding-left: 10px;
+        padding-right: 10px;
+      }
+      #look{
+        position: absolute;
+        z-index: 9;
+        text-align: center;
+        background-color: white;
+        padding-left: 10px;
+        padding-right: 10px;
+      }
+      #make{
+        position: absolute;
+        z-index: 9;
+        text-align: center;
+        background-color: white;
+        padding-left: 10px;
+        padding-right: 10px;
+      }
+      #man{
+        position: absolute;
+        z-index: 9;
+        text-align: center;
+        background-color: white;
+        padding-left: 10px;
+        padding-right: 10px;
+      }
+      #many{
+        position: absolute;
+        z-index: 9;
+        text-align: center;
+        background-color: white;
+        padding-left: 10px;
+        padding-right: 10px;
+      }
+      #me{
+        position: absolute;
+        z-index: 9;
+        text-align: center;
+        background-color: white;
+        padding-left: 10px;
+        padding-right: 10px;
+      }
+      #more{
+        position: absolute;
+        z-index: 9;
+        text-align: center;
+        background-color: white;
+        padding-left: 10px;
+        padding-right: 10px;
+      }
+      #my{
+        position: absolute;
+        z-index: 9;
+        text-align: center;
+        background-color: white;
+        padding-left: 10px;
+        padding-right: 10px;
+      }
+      #new{
+        position: absolute;
+        z-index: 9;
+        text-align: center;
+        background-color: white;
+        padding-left: 10px;
+        padding-right: 10px;
+      }
+      #no{
+        position: absolute;
+        z-index: 9;
+        text-align: center;
+        background-color: white;
+        padding-left: 10px;
+        padding-right: 10px;
+      }
+      #not{
+        position: absolute;
+        z-index: 9;
+        text-align: center;
+        background-color: white;
+        padding-left: 10px;
+        padding-right: 10px;
+      }
+      #now{
+        position: absolute;
+        z-index: 9;
+        text-align: center;
+        background-color: white;
+        padding-left: 10px;
+        padding-right: 10px;
+      }
+      #of{
+        position: absolute;
+        z-index: 9;
+        text-align: center;
+        background-color: white;
+        padding-left: 10px;
+        padding-right: 10px;
+      }
+      #on{
+        position: absolute;
+        z-index: 9;
+        text-align: center;
+        background-color: white;
+        padding-left: 10px;
+        padding-right: 10px;
+      }
+      #one{
+        position: absolute;
+        z-index: 9;
+        text-align: center;
+        background-color: white;
+        padding-left: 10px;
+        padding-right: 10px;
+      }
+      #only{
+        position: absolute;
+        z-index: 9;
+        text-align: center;
+        background-color: white;
+        padding-left: 10px;
+        padding-right: 10px;
+      }
+      #or{
+        position: absolute;
+        z-index: 9;
+        text-align: center;
+        background-color: white;
+        padding-left: 10px;
+        padding-right: 10px;
+      }
+      #other{
+        position: absolute;
+        z-index: 9;
+        text-align: center;
+        background-color: white;
+        padding-left: 10px;
+        padding-right: 10px;
+      }
+      #our{
+        position: absolute;
+        z-index: 9;
+        text-align: center;
+        background-color: white;
+        padding-left: 10px;
+        padding-right: 10px;
+      }
+      #out{
+        position: absolute;
+        z-index: 9;
+        text-align: center;
+        background-color: white;
+        padding-left: 10px;
+        padding-right: 10px;
+      }
+      #people{
+        position: absolute;
+        z-index: 9;
+        text-align: center;
+        background-color: white;
+        padding-left: 10px;
+        padding-right: 10px;
+      }
+      #say{
+        position: absolute;
+        z-index: 9;
+        text-align: center;
+        background-color: white;
+        padding-left: 10px;
+        padding-right: 10px;
+      }
+      #see{
+        position: absolute;
+        z-index: 9;
+        text-align: center;
+        background-color: white;
+        padding-left: 10px;
+        padding-right: 10px;
+      }
+      #she{
+        position: absolute;
+        z-index: 9;
+        text-align: center;
+        background-color: white;
+        padding-left: 10px;
+        padding-right: 10px;
+      }
+      #so{
+        position: absolute;
+        z-index: 9;
+        text-align: center;
+        background-color: white;
+        padding-left: 10px;
+        padding-right: 10px;
+      }
+      #some{
+        position: absolute;
+        z-index: 9;
+        text-align: center;
+        background-color: white;
+        padding-left: 10px;
+        padding-right: 10px;
+      }
+      #take{
+        position: absolute;
+        z-index: 9;
+        text-align: center;
+        background-color: white;
+        padding-left: 10px;
+        padding-right: 10px;
+      }
+      #tell{
+        position: absolute;
+        z-index: 9;
+        text-align: center;
+        background-color: white;
+        padding-left: 10px;
+        padding-right: 10px;
+      }
+      #than{
+        position: absolute;
+        z-index: 9;
+        text-align: center;
+        background-color: white;
+        padding-left: 10px;
+        padding-right: 10px;
+      }
+      #that{
+        position: absolute;
+        z-index: 9;
+        text-align: center;
+        background-color: white;
+        padding-left: 10px;
+        padding-right: 10px;
+      }
+      #the{
+        position: absolute;
+        z-index: 9;
+        text-align: center;
+        background-color: white;
+        padding-left: 10px;
+        padding-right: 10px;
+      }
+      #their{
+        position: absolute;
+        z-index: 9;
+        text-align: center;
+        background-color: white;
+        padding-left: 10px;
+        padding-right: 10px;
+      }
+      #them{
+        position: absolute;
+        z-index: 9;
+        text-align: center;
+        background-color: white;
+        padding-left: 10px;
+        padding-right: 10px;
+      }
+      #then{
+        position: absolute;
+        z-index: 9;
+        text-align: center;
+        background-color: white;
+        padding-left: 10px;
+        padding-right: 10px;
+      }
+      #there{
+        position: absolute;
+        z-index: 9;
+        text-align: center;
+        background-color: white;
+        padding-left: 10px;
+        padding-right: 10px;
+      }
+      #these{
+        position: absolute;
+        z-index: 9;
+        text-align: center;
+        background-color: white;
+        padding-left: 10px;
+        padding-right: 10px;
+      }
+      #they{
+        position: absolute;
+        z-index: 9;
+        text-align: center;
+        background-color: white;
+        padding-left: 10px;
+        padding-right: 10px;
+      }
+      #thing{
+        position: absolute;
+        z-index: 9;
+        text-align: center;
+        background-color: white;
+        padding-left: 10px;
+        padding-right: 10px;
+      }
+      #think{
+        position: absolute;
+        z-index: 9;
+        text-align: center;
+        background-color: white;
+        padding-left: 10px;
+        padding-right: 10px;
+      }
+      #this{
+        position: absolute;
+        z-index: 9;
+        text-align: center;
+        background-color: white;
+        padding-left: 10px;
+        padding-right: 10px;
+      }
+      #those{
+        position: absolute;
+        z-index: 9;
+        text-align: center;
+        background-color: white;
+        padding-left: 10px;
+        padding-right: 10px;
+      }
+      #time{
+        position: absolute;
+        z-index: 9;
+        text-align: center;
+        background-color: white;
+        padding-left: 10px;
+        padding-right: 10px;
+      }
+      #to{
+        position: absolute;
+        z-index: 9;
+        text-align: center;
+        background-color: white;
+        padding-left: 10px;
+        padding-right: 10px;
+      }
+      #two{
+        position: absolute;
+        z-index: 9;
+        text-align: center;
+        background-color: white;
+        padding-left: 10px;
+        padding-right: 10px;
+      }
+      #up{
+        position: absolute;
+        z-index: 9;
+        text-align: center;
+        background-color: white;
+        padding-left: 10px;
+        padding-right: 10px;
+      }
+      #use{
+        position: absolute;
+        z-index: 9;
+        text-align: center;
+        background-color: white;
+        padding-left: 10px;
+        padding-right: 10px;
+      }
+      #very{
+        position: absolute;
+        z-index: 9;
+        text-align: center;
+        background-color: white;
+        padding-left: 10px;
+        padding-right: 10px;
+      }
+      #want{
+        position: absolute;
+        z-index: 9;
+        text-align: center;
+        background-color: white;
+        padding-left: 10px;
+        padding-right: 10px;
+      }
+      #way{
+        position: absolute;
+        z-index: 9;
+        text-align: center;
+        background-color: white;
+        padding-left: 10px;
+        padding-right: 10px;
+      }
+      #we{
+        position: absolute;
+        z-index: 9;
+        text-align: center;
+        background-color: white;
+        padding-left: 10px;
+        padding-right: 10px;
+      }
+      #well{
+        position: absolute;
+        z-index: 9;
+        text-align: center;
+        background-color: white;
+        padding-left: 10px;
+        padding-right: 10px;
+      }
+      #what{
+        position: absolute;
+        z-index: 9;
+        text-align: center;
+        background-color: white;
+        padding-left: 10px;
+        padding-right: 10px;
+      }
+      #when{
+        position: absolute;
+        z-index: 9;
+        text-align: center;
+        background-color: white;
+        padding-left: 10px;
+        padding-right: 10px;
+      }
+      #which{
+        position: absolute;
+        z-index: 9;
+        text-align: center;
+        background-color: white;
+        padding-left: 10px;
+        padding-right: 10px;
+      }
+      #who{
+        position: absolute;
+        z-index: 9;
+        text-align: center;
+        background-color: white;
+        padding-left: 10px;
+        padding-right: 10px;
+      }
+      #will{
+        position: absolute;
+        z-index: 9;
+        text-align: center;
+        background-color: white;
+        padding-left: 10px;
+        padding-right: 10px;
+      }
+      #with{
+        position: absolute;
+        z-index: 9;
+        text-align: center;
+        background-color: white;
+        padding-left: 10px;
+        padding-right: 10px;
+      }
+      #would{
+        position: absolute;
+        z-index: 9;
+        text-align: center;
+        background-color: white;
+        padding-left: 10px;
+        padding-right: 10px;
+      }
+      #year{
+        position: absolute;
+        z-index: 9;
+        text-align: center;
+        background-color: white;
+        padding-left: 10px;
+        padding-right: 10px;
+      }

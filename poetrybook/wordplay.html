@@ -1,14 +1,14 @@
-<!DOCTYPE html>
 <html lang="en">
-<head class=“cursor”>
+<head class="cursor">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lydia</title>
+    <link rel="stylesheet" href="https://use.typekit.net/vgs5awc.css">
     <link rel="stylesheet" type="text/css" href="wordplay.css">
     <link rel="stylesheet" href="https://use.typekit.net/zpe8fad.css">
+    <script defer src="https://html2canvas.hertzen.com/dist/html2canvas.min.js"></script>
     <script src="wordplay.js"></script>
-    
 </head>
 
 <body>
@@ -21,7 +21,7 @@
             <li><a href="shakespearewordplay.html">shakespeare word play</a></li>
         </ul>
     </nav>
-
+   
     <div class="draggable-container">
     <div id="you">
         <p>you</p>
@@ -268,74 +268,134 @@
         <p>new</p>
       </div>
 
-      <div id="could">
-        <p>could</p>
+
+
+      <div id="girl">
+        <p>girl</p>
       </div>
 
-      <div id="could">
-        <p>could</p>
+      <div id="they">
+        <p>they</p>
       </div>
 
-      <div id="could">
-        <p>could</p>
+      <div id="them">
+        <p>them</p>
       </div>
 
-      <div id="could">
-        <p>could</p>
+      <div id="and">
+        <p>and</p>
       </div>
 
-      <div id="could">
-        <p>could</p>
+      <div id="we">
+        <p>we</p>
       </div>
 
-      <div id="could">
-        <p>could</p>
+      <div id="the">
+        <p>the</p>
       </div>
 
-      <div id="could">
-        <p>could</p>
+      <div id="those">
+        <p>those</p>
       </div>
 
-      <div id="could">
-        <p>could</p>
+      <div id="ed">
+        <p>ed</p>
       </div>
 
-      <div id="could">
-        <p>could</p>
+      <div id="s">
+        <p>s</p>
       </div>
 
-      <div id="could">
-        <p>could</p>
+      <div id="I">
+        <p>I</p>
       </div>
 
-      <div id="could">
-        <p>could</p>
+      <div id="were">
+        <p>were</p>
       </div>
 
-      <div id="could">
-        <p>could</p>
+      <div id="heart">
+        <p>heart</p>
       </div>
 
-      <div id="could">
-        <p>could</p>
+      <div id="sorrow">
+        <p>sorrow</p>
       </div>
 
-      <div id="could">
-        <p>could</p>
+      <div id="life">
+        <p>life</p>
       </div>
 
-      <div id="could">
-        <p>could</p>
+      <div id="tree">
+        <p>tree</p>
       </div>
 
+      <div id="flower">
+        <p>flower</p>
+      </div>
+
+      <div id="sun">
+        <p>sun</p>
+      </div>
+
+      <div id="moon">
+        <p>moon</p>
+      </div>
+
+      <div id="betray">
+        <p>betray</p>
+      </div>
+
+      <div id="love">
+        <p>love</p>
+      </div>
+
+      <div id="laugh">
+        <p>laugh</p>
+      </div>
     </div>
     <script>
-var draggableContainer = document.querySelector(".draggable-container");
-var draggableElements = draggableContainer.children;
+      var exclusionArea = {
+    width: 650,
+    height: 200,
+};
 
-for (var i = 0; i < draggableElements.length; i++) {
-    dragElement(draggableElements[i]);
+function getRandomPosition() {
+    var maxX = window.innerWidth - 2;
+    var maxY = window.innerHeight - 2;
+    var minY = 70;
+
+    var randomX, randomY;
+
+    do {
+        randomX = Math.floor(Math.random() * (maxX - 100)); // Reduced size
+        randomY = Math.floor(Math.random() * (maxY - minY - 100) + minY); // Reduced size
+    } while (checkOverlap(randomX, randomY) || isInExclusionArea(randomX, randomY));
+
+    return { x: randomX, y: randomY };
 }
+
+function isInExclusionArea(x, y) {
+    var centerX = window.innerWidth / 2;
+    var centerY = window.innerHeight / 2;
+
+    var startX = centerX - exclusionArea.width / 2;
+    var endX = centerX + exclusionArea.width / 2;
+    var startY = centerY - exclusionArea.height / 2;
+    var endY = centerY + exclusionArea.height / 2;
+
+    return x >= startX && x <= endX && y >= startY && y <= endY;
+}
+
+// ... Rest of your code remains unchanged
+
+  var draggableContainer = document.querySelector(".draggable-container");
+        var draggableElements = draggableContainer.children;
+        
+        for (var i = 0; i < draggableElements.length; i++) {
+            dragElement(draggableElements[i]);
+        }
+        
 
 // Function to get a random position within the specified range
 function getRandomPosition() {
@@ -417,6 +477,7 @@ function dragElement(elmnt) {
         currentDraggingElement = null; // Reset the currently dragged element
     }
 }
+
     </script>
 
         <br>

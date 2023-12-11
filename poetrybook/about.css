@@ -1,0 +1,97 @@
+body{
+    background-color:black;
+    color:white;
+}
+
+p {
+  color: white;
+  font-family: "greycliff-cf", sans-serif;
+font-weight: 400;
+font-style: normal;
+align-items: center;
+font-size: 18px;
+margin-top: 200px;
+padding-right: 400px;
+padding-left: 400px;
+text-align:justify;
+}
+nav {
+    height: 50px;
+    
+}
+
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-family: "greycliff-cf", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    display: block;
+    color: #fff;
+    text-align: center;
+    padding: 25px;
+    font-size:20px;
+    text-decoration: none;
+      font-family: "greycliff-cf", sans-serif;
+    font-weight: 550;
+    font-style: normal;
+}
+    
+
+nav ul li a:hover {
+    background-color: rgb(0, 0, 0);
+}
+
+@keyframes blink {
+    0% {
+      opacity: 1; /* Fully visible */
+    }
+    75% {
+      opacity: 0; /* Fully invisible */
+    }
+    100% {
+      opacity: 1; /* Fully visible again */
+    }
+  }
+  
+  /* Apply the animation to your text element */
+  .blinking-text {
+    animation: blink 8s infinite; /* 1s duration, infinite loop */
+  }
+  
+
+  .typewriter {
+    width:fit-content;
+    align-items: center;
+    text-align: center;
+    font-size: 40px;
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid white; /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .15em; /* Adjust as needed */
+    animation: 
+    typing 1.5s steps(10, end),
+    blink-caret .3s step-end infinite;
+  }
+  
+  /* The typing effect */
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 40% }
+  }
+  
+  /* The typewriter cursor effect */
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: white; }
+  }

@@ -4,15 +4,12 @@ body{
 }
 
 
-.title {
-    color: white;
-    align-items: center;
-    text-align: center;
-    font-size: 200px;
-        font-family: 'austin', cursive;
-        font-weight: 50;
-}
 
+.typewriter {
+  font-family: "sofia-pro", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
 nav {
 
     height: 50px;
@@ -22,7 +19,9 @@ nav ul {
     margin: 0;
     padding: 0;
     list-style: none;
-    font-family: 'Rubik Light', sans-serif;
+    font-family: "greycliff-cf", sans-serif;
+    font-weight: 700;
+    font-style: normal;
 }
 
 nav ul li {
@@ -30,11 +29,15 @@ nav ul li {
 }
 
 nav ul li a {
-    display: block;
-    color: #fff;
-    text-align: center;
-    padding: 25px;
-    text-decoration: none;
+  display: block;
+  color: #fff;
+  text-align: center;
+  padding: 25px;
+  font-size:20px;
+  text-decoration: none;
+    font-family: "greycliff-cf", sans-serif;
+  font-weight: 550;
+  font-style: normal;
 }
 
 nav ul li a:hover {
@@ -63,15 +66,18 @@ nav ul li a:hover {
     width:fit-content;
     align-items: center;
     text-align: center;
-    font-size: 40px;
+    font-size: 50px;
     overflow: hidden; /* Ensures the content is not revealed until the animation */
     border-right: .15em solid white; /* The typwriter cursor */
     white-space: nowrap; /* Keeps the content on a single line */
     margin: 0 auto; /* Gives that scrolling effect as the typing happens */
     letter-spacing: .15em; /* Adjust as needed */
     animation: 
-    typing 1.5s steps(10, end),
-    blink-caret .3s step-end infinite;
+    typing 3s steps(40, end) infinite,
+    blink-caret .4s step-end infinite 0s;
+    animation-iteration-count: infinite;
+    animation-delay: 3s;
+    
   }
   
   /* The typing effect */
